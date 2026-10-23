@@ -1,0 +1,1001 @@
+test_name,test_description,execution_time,status,error_message,environment,retry_count,timestamp,failure_category
+CheckoutTest,Verify checkout process,12.37,FAIL,Unexpected service response,qa,2,2026-06-12 09:59:00,REAL_BUG
+PasswordResetTest,Verify password reset,4.25,FAIL,Request timed out,qa,0,2026-01-05 19:56:00,REAL_BUG
+PasswordResetTest,Verify password reset,25.89,FAIL,Request timed out,staging,0,2026-05-28 08:27:00,REAL_BUG
+LoginTest,Verify user login functionality,20.75,FAIL,Service unavailable,staging,0,2026-01-19 14:33:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,17.45,FAIL,Timeout waiting for element,qa,0,2026-03-25 15:15:00,FLAKY
+PasswordResetTest,Verify password reset,6.31,PASS,,qa,0,2026-04-23 14:21:00,REAL_BUG
+ProfileTest,Verify user profile update,4.92,PASS,,staging,0,2026-06-29 08:29:00,FLAKY
+CheckoutTest,Verify checkout process,18.97,PASS,,staging,1,2026-01-30 14:38:00,DATA_ISSUE
+ProfileTest,Verify user profile update,32.48,PASS,,production,1,2026-04-21 21:20:00,FLAKY
+PaymentTest,Verify payment processing,22.41,FAIL,Service unavailable,qa,0,2026-04-12 09:21:00,FLAKY
+SearchTest,Verify product search,35.59,PASS,,production,0,2026-05-27 13:17:00,ENVIRONMENT
+ProfileTest,Verify user profile update,41.35,FAIL,Service unavailable,staging,1,2026-02-08 16:58:00,FLAKY
+RegistrationTest,Verify new user registration,22.27,PASS,,production,0,2026-05-16 14:54:00,FLAKY
+PasswordResetTest,Verify password reset,20.99,PASS,,staging,1,2026-02-09 22:13:00,FLAKY
+PaymentTest,Verify payment processing,4.98,FAIL,Service unavailable,production,0,2026-05-25 04:38:00,FLAKY
+LogoutTest,Verify user logout,28.03,FAIL,Test exceeded expected execution time,qa,1,2026-06-06 16:48:00,FLAKY
+LoginTest,Verify user login functionality,40.16,FAIL,Unexpected API response,staging,2,2026-01-21 07:22:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,43.06,PASS,,staging,2,2026-06-26 22:14:00,FLAKY
+PasswordResetTest,Verify password reset,7.47,FAIL,Unexpected API response,qa,1,2026-04-21 20:37:00,ENVIRONMENT
+SearchTest,Verify product search,25.65,PASS,,qa,2,2026-06-17 04:57:00,REAL_BUG
+LoginTest,Verify user login functionality,7.7,PASS,,staging,0,2026-02-13 14:10:00,FLAKY
+LoginTest,Verify user login functionality,6.31,FAIL,Assertion failed: expected value does not match actual value,qa,2,2026-05-20 09:58:00,REAL_BUG
+PaymentTest,Verify payment processing,26.09,FAIL,Request timed out,staging,0,2026-06-25 13:21:00,REAL_BUG
+SearchTest,Verify product search,31.97,PASS,,staging,2,2026-05-03 06:38:00,DATA_ISSUE
+ProfileTest,Verify user profile update,8.08,PASS,,staging,0,2026-01-04 19:54:00,FLAKY
+OrderHistoryTest,Verify order history,3.3,PASS,,production,2,2026-02-11 16:15:00,FLAKY
+CheckoutTest,Verify checkout process,5.98,PASS,,qa,0,2026-03-30 08:48:00,DATA_ISSUE
+SearchTest,Verify product search,40.06,PASS,,production,1,2026-05-23 20:03:00,FLAKY
+RegistrationTest,Verify new user registration,7.07,FAIL,Environment service did not respond,staging,1,2026-03-27 00:27:00,ENVIRONMENT
+LoginTest,Verify user login functionality,7.13,PASS,,staging,1,2026-05-26 17:50:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,21.84,FAIL,Unexpected API response,staging,1,2026-02-15 11:25:00,REAL_BUG
+CheckoutTest,Verify checkout process,26.11,PASS,,qa,0,2026-06-02 04:39:00,FLAKY
+LoginTest,Verify user login functionality,38.65,PASS,,staging,0,2026-03-29 15:05:00,DATA_ISSUE
+SearchTest,Verify product search,9.91,PASS,,staging,0,2026-02-18 06:41:00,DATA_ISSUE
+RegistrationTest,Verify new user registration,33.68,PASS,,qa,2,2026-05-11 18:46:00,FLAKY
+RegistrationTest,Verify new user registration,43.69,FAIL,Request timed out,production,1,2026-05-17 03:57:00,REAL_BUG
+ProfileTest,Verify user profile update,24.12,FAIL,Element displayed incorrect value,production,2,2026-06-24 21:42:00,REAL_BUG
+PasswordResetTest,Verify password reset,27.99,FAIL,Element displayed incorrect value,staging,1,2026-01-22 19:47:00,REAL_BUG
+OrderHistoryTest,Verify order history,29.01,FAIL,Request timed out,qa,1,2026-04-06 04:04:00,REAL_BUG
+ProfileTest,Verify user profile update,33.08,FAIL,Duplicate test data detected,production,0,2026-05-03 06:39:00,DATA_ISSUE
+CartTest,Verify shopping cart functionality,42.3,PASS,,qa,0,2026-04-13 11:45:00,FLAKY
+CheckoutTest,Verify checkout process,14.14,FAIL,Assertion failed: expected value does not match actual value,production,3,2026-03-09 06:29:00,REAL_BUG
+CartTest,Verify shopping cart functionality,32.55,PASS,,qa,1,2026-04-07 06:58:00,REAL_BUG
+LoginTest,Verify user login functionality,42.13,PASS,,production,0,2026-02-18 03:28:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,9.53,PASS,,production,0,2026-05-11 15:17:00,DATA_ISSUE
+ProfileTest,Verify user profile update,14.09,FAIL,Assertion failed: expected value does not match actual value,production,1,2026-04-26 11:13:00,REAL_BUG
+LogoutTest,Verify user logout,17.01,FAIL,Network connection refused,production,0,2026-05-15 22:29:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,3.41,FAIL,Service unavailable,production,0,2026-04-10 07:43:00,FLAKY
+LoginTest,Verify user login functionality,9.22,PASS,,staging,0,2026-03-08 09:11:00,ENVIRONMENT
+LoginTest,Verify user login functionality,13.48,FAIL,Assertion failed: expected value does not match actual value,staging,0,2026-06-27 06:45:00,DATA_ISSUE
+OrderHistoryTest,Verify order history,12.94,PASS,,production,0,2026-06-10 10:57:00,ENVIRONMENT
+LogoutTest,Verify user logout,16.95,PASS,,qa,3,2026-06-07 07:09:00,REAL_BUG
+SearchTest,Verify product search,7.54,PASS,,staging,2,2026-02-10 11:49:00,FLAKY
+SearchTest,Verify product search,15.82,FAIL,Service unavailable,production,2,2026-01-05 07:23:00,ENVIRONMENT
+SearchTest,Verify product search,5.92,FAIL,Test exceeded expected execution time,qa,2,2026-04-03 17:37:00,FLAKY
+LogoutTest,Verify user logout,16.91,PASS,,staging,0,2026-02-02 12:10:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,7.55,FAIL,Unexpected API response,staging,1,2026-03-21 10:38:00,DATA_ISSUE
+OrderHistoryTest,Verify order history,40.78,FAIL,Invalid test data,qa,0,2026-03-21 09:09:00,DATA_ISSUE
+LoginTest,Verify user login functionality,31.85,PASS,,qa,3,2026-05-03 02:01:00,FLAKY
+SearchTest,Verify product search,30.9,FAIL,Test exceeded expected execution time,qa,0,2026-06-04 09:02:00,FLAKY
+CheckoutTest,Verify checkout process,15.99,FAIL,Environment service did not respond,qa,1,2026-02-23 19:44:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,42.5,FAIL,Element displayed incorrect value,qa,1,2026-04-14 14:27:00,REAL_BUG
+CartTest,Verify shopping cart functionality,15.76,PASS,,qa,0,2026-04-21 10:32:00,FLAKY
+ProfileTest,Verify user profile update,11.98,FAIL,Service unavailable,production,1,2026-04-30 22:33:00,FLAKY
+CheckoutTest,Verify checkout process,29.01,PASS,,production,0,2026-05-03 11:29:00,FLAKY
+CartTest,Verify shopping cart functionality,4.03,FAIL,Incorrect calculation result,qa,0,2026-06-04 16:33:00,REAL_BUG
+CheckoutTest,Verify checkout process,27.18,PASS,,staging,2,2026-03-31 23:58:00,FLAKY
+LogoutTest,Verify user logout,3.23,PASS,,production,2,2026-05-22 16:58:00,REAL_BUG
+LogoutTest,Verify user logout,32.23,PASS,,qa,1,2026-02-15 08:45:00,REAL_BUG
+CheckoutTest,Verify checkout process,31.04,PASS,,qa,3,2026-02-27 18:17:00,FLAKY
+RegistrationTest,Verify new user registration,24.2,PASS,,qa,2,2026-03-23 04:13:00,ENVIRONMENT
+PaymentTest,Verify payment processing,13.89,FAIL,Unexpected API response,staging,0,2026-05-20 09:53:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,21.47,FAIL,Element not found after waiting,staging,2,2026-03-03 03:20:00,FLAKY
+ProfileTest,Verify user profile update,9.33,FAIL,Required test data not found,qa,0,2026-02-08 22:46:00,DATA_ISSUE
+CheckoutTest,Verify checkout process,22.57,FAIL,Intermittent connection timeout,staging,0,2026-06-14 17:17:00,FLAKY
+OrderHistoryTest,Verify order history,39.99,FAIL,Duplicate test data detected,production,1,2026-06-21 14:54:00,DATA_ISSUE
+ProfileTest,Verify user profile update,40.45,FAIL,Unexpected API response,qa,2,2026-05-14 17:39:00,FLAKY
+PasswordResetTest,Verify password reset,23.51,PASS,,staging,0,2026-01-06 06:48:00,ENVIRONMENT
+LogoutTest,Verify user logout,19.98,PASS,,staging,0,2026-06-17 09:32:00,FLAKY
+PaymentTest,Verify payment processing,41.09,PASS,,qa,1,2026-01-05 22:24:00,DATA_ISSUE
+CheckoutTest,Verify checkout process,22.39,FAIL,Environment service did not respond,staging,0,2026-02-08 12:45:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,18.92,PASS,,staging,2,2026-02-15 22:11:00,FLAKY
+CheckoutTest,Verify checkout process,5.19,PASS,,production,3,2026-04-29 08:31:00,FLAKY
+CheckoutTest,Verify checkout process,34.68,PASS,,production,3,2026-06-02 18:38:00,ENVIRONMENT
+LoginTest,Verify user login functionality,22.89,FAIL,Service unavailable,staging,0,2026-05-08 08:00:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,28.5,FAIL,Database connection timeout,production,2,2026-06-25 14:55:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,16.1,FAIL,Incorrect calculation result,staging,1,2026-06-21 09:20:00,REAL_BUG
+SearchTest,Verify product search,29.34,PASS,,staging,0,2026-06-04 18:59:00,REAL_BUG
+OrderHistoryTest,Verify order history,26.77,PASS,,qa,0,2026-03-19 23:36:00,ENVIRONMENT
+ProfileTest,Verify user profile update,3.53,FAIL,Incorrect calculation result,production,1,2026-03-20 22:05:00,REAL_BUG
+ProfileTest,Verify user profile update,32.71,PASS,,qa,1,2026-04-05 23:32:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,35.53,PASS,,qa,1,2026-04-18 20:33:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,42.25,FAIL,Intermittent connection timeout,production,0,2026-05-17 14:52:00,FLAKY
+RegistrationTest,Verify new user registration,17.13,PASS,,staging,1,2026-02-03 02:28:00,FLAKY
+RegistrationTest,Verify new user registration,17.29,PASS,,qa,2,2026-06-10 05:14:00,REAL_BUG
+CartTest,Verify shopping cart functionality,11.02,PASS,,staging,0,2026-03-30 22:37:00,FLAKY
+PasswordResetTest,Verify password reset,30.13,PASS,,production,1,2026-01-17 22:33:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,15.86,PASS,,staging,1,2026-04-11 18:09:00,REAL_BUG
+PasswordResetTest,Verify password reset,26.12,PASS,,staging,0,2026-02-19 07:39:00,FLAKY
+CartTest,Verify shopping cart functionality,11.09,FAIL,Unexpected API response,qa,0,2026-02-03 16:55:00,FLAKY
+SearchTest,Verify product search,33.43,FAIL,Request timed out,qa,3,2026-02-21 12:26:00,REAL_BUG
+CheckoutTest,Verify checkout process,18.16,FAIL,Unexpected API response,qa,0,2026-01-24 01:02:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,15.27,FAIL,Unexpected service response,staging,3,2026-01-19 16:12:00,REAL_BUG
+LoginTest,Verify user login functionality,21.5,PASS,,production,0,2026-02-15 23:05:00,FLAKY
+RegistrationTest,Verify new user registration,23.65,FAIL,Unexpected service response,production,1,2026-01-28 14:54:00,REAL_BUG
+PaymentTest,Verify payment processing,6.58,PASS,,qa,0,2026-05-20 03:54:00,ENVIRONMENT
+LogoutTest,Verify user logout,12.48,PASS,,staging,1,2026-06-15 09:18:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,21.01,PASS,,production,1,2026-04-21 23:31:00,FLAKY
+CheckoutTest,Verify checkout process,11.86,FAIL,Required test data not found,production,1,2026-02-01 15:24:00,DATA_ISSUE
+PasswordResetTest,Verify password reset,21.92,FAIL,Unexpected API response,production,1,2026-02-12 03:20:00,REAL_BUG
+CartTest,Verify shopping cart functionality,22.07,PASS,,staging,1,2026-05-24 10:04:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,20.86,PASS,,qa,1,2026-01-28 02:56:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,9.97,FAIL,Unexpected API response,qa,0,2026-06-17 16:45:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,15.77,PASS,,staging,1,2026-04-02 02:35:00,FLAKY
+PasswordResetTest,Verify password reset,4.67,FAIL,Test exceeded expected execution time,qa,1,2026-02-15 13:52:00,FLAKY
+LoginTest,Verify user login functionality,38.11,PASS,,production,1,2026-05-20 05:17:00,REAL_BUG
+CartTest,Verify shopping cart functionality,10.36,PASS,,staging,1,2026-06-16 18:22:00,FLAKY
+CartTest,Verify shopping cart functionality,29.66,FAIL,Assertion failed: expected value does not match actual value,staging,1,2026-03-05 08:15:00,REAL_BUG
+LogoutTest,Verify user logout,39.02,PASS,,qa,0,2026-04-01 04:44:00,FLAKY
+CartTest,Verify shopping cart functionality,34.94,FAIL,Database connection timeout,staging,0,2026-02-15 22:44:00,ENVIRONMENT
+ProfileTest,Verify user profile update,39.33,PASS,,production,2,2026-04-30 17:21:00,REAL_BUG
+PasswordResetTest,Verify password reset,24.77,FAIL,Intermittent connection timeout,qa,1,2026-03-22 11:18:00,FLAKY
+LoginTest,Verify user login functionality,41.96,FAIL,Unexpected service response,staging,1,2026-01-23 02:31:00,REAL_BUG
+LoginTest,Verify user login functionality,13.05,PASS,,qa,0,2026-01-03 11:44:00,DATA_ISSUE
+PasswordResetTest,Verify password reset,38.34,FAIL,Timeout waiting for element,qa,0,2026-06-01 11:41:00,FLAKY
+PaymentTest,Verify payment processing,24.37,PASS,,staging,0,2026-06-28 10:45:00,FLAKY
+RegistrationTest,Verify new user registration,19.11,FAIL,Request timed out,qa,3,2026-06-10 01:50:00,REAL_BUG
+PaymentTest,Verify payment processing,36.18,FAIL,Assertion failed: expected value does not match actual value,staging,1,2026-05-30 09:02:00,DATA_ISSUE
+LoginTest,Verify user login functionality,27.65,FAIL,Intermittent connection timeout,production,3,2026-03-23 06:59:00,FLAKY
+PasswordResetTest,Verify password reset,35.04,FAIL,Test exceeded expected execution time,production,0,2026-06-28 13:04:00,FLAKY
+SearchTest,Verify product search,35.57,FAIL,Service unavailable,staging,0,2026-05-09 09:11:00,FLAKY
+LogoutTest,Verify user logout,37.47,PASS,,staging,3,2026-06-25 15:22:00,FLAKY
+LoginTest,Verify user login functionality,16.94,PASS,,staging,0,2026-01-19 03:38:00,REAL_BUG
+PasswordResetTest,Verify password reset,9.05,FAIL,Required test data not found,production,2,2026-03-27 11:14:00,DATA_ISSUE
+CartTest,Verify shopping cart functionality,30.29,PASS,,qa,2,2026-06-06 10:31:00,FLAKY
+PasswordResetTest,Verify password reset,33.19,FAIL,Unexpected API response,production,2,2026-04-23 09:43:00,FLAKY
+CheckoutTest,Verify checkout process,15.07,PASS,,production,0,2026-03-21 00:03:00,REAL_BUG
+CheckoutTest,Verify checkout process,7.22,PASS,,staging,0,2026-06-14 11:07:00,ENVIRONMENT
+LoginTest,Verify user login functionality,15.32,PASS,,production,0,2026-02-14 10:54:00,REAL_BUG
+PasswordResetTest,Verify password reset,10.56,PASS,,qa,0,2026-06-08 12:45:00,FLAKY
+LogoutTest,Verify user logout,41.34,FAIL,Environment service did not respond,qa,0,2026-02-16 05:38:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,36.79,FAIL,Service unavailable,qa,3,2026-01-29 18:12:00,FLAKY
+CheckoutTest,Verify checkout process,27.68,FAIL,Intermittent connection timeout,qa,1,2026-02-15 12:41:00,FLAKY
+RegistrationTest,Verify new user registration,19.16,FAIL,Service unavailable,staging,1,2026-04-15 02:46:00,ENVIRONMENT
+ProfileTest,Verify user profile update,15.4,PASS,,qa,3,2026-03-14 01:18:00,FLAKY
+CartTest,Verify shopping cart functionality,35.69,PASS,,qa,3,2026-05-16 15:42:00,REAL_BUG
+RegistrationTest,Verify new user registration,35.58,PASS,,staging,0,2026-02-09 20:50:00,ENVIRONMENT
+SearchTest,Verify product search,33.28,PASS,,production,1,2026-04-25 08:51:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,15.98,PASS,,qa,1,2026-03-08 10:06:00,DATA_ISSUE
+PaymentTest,Verify payment processing,34.39,FAIL,Element displayed incorrect value,qa,0,2026-06-09 13:18:00,REAL_BUG
+ProfileTest,Verify user profile update,37.88,PASS,,staging,0,2026-06-26 02:33:00,FLAKY
+CartTest,Verify shopping cart functionality,7.84,FAIL,Service unavailable,production,3,2026-06-06 14:00:00,ENVIRONMENT
+LogoutTest,Verify user logout,18.36,PASS,,production,2,2026-02-18 03:26:00,DATA_ISSUE
+PasswordResetTest,Verify password reset,34.46,FAIL,Incorrect calculation result,qa,0,2026-06-21 04:11:00,REAL_BUG
+ProfileTest,Verify user profile update,4.05,FAIL,Request timed out,staging,2,2026-06-16 14:48:00,REAL_BUG
+OrderHistoryTest,Verify order history,37.6,FAIL,Unexpected API response,qa,3,2026-03-16 07:52:00,REAL_BUG
+CheckoutTest,Verify checkout process,15.78,PASS,,production,1,2026-02-12 17:51:00,REAL_BUG
+PasswordResetTest,Verify password reset,31.16,FAIL,Request timed out,staging,2,2026-04-17 22:07:00,REAL_BUG
+PaymentTest,Verify payment processing,38.02,PASS,,staging,1,2026-01-06 22:56:00,DATA_ISSUE
+ProfileTest,Verify user profile update,12.92,FAIL,Unexpected service response,staging,0,2026-04-10 02:48:00,REAL_BUG
+ProfileTest,Verify user profile update,43.66,FAIL,Incorrect calculation result,production,3,2026-05-01 15:40:00,REAL_BUG
+SearchTest,Verify product search,3.9,PASS,,production,2,2026-01-23 22:10:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,26.28,PASS,,production,1,2026-03-01 19:29:00,REAL_BUG
+PaymentTest,Verify payment processing,14.65,PASS,,production,3,2026-04-09 08:14:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,39.39,FAIL,Network connection refused,production,0,2026-04-18 04:44:00,ENVIRONMENT
+ProfileTest,Verify user profile update,8.32,FAIL,Assertion failed: expected value does not match actual value,qa,1,2026-01-12 13:41:00,REAL_BUG
+RegistrationTest,Verify new user registration,27.93,FAIL,Element not found after waiting,qa,1,2026-01-08 21:27:00,FLAKY
+PasswordResetTest,Verify password reset,4.31,PASS,,staging,3,2026-03-19 14:25:00,FLAKY
+CheckoutTest,Verify checkout process,6.09,PASS,,qa,0,2026-01-28 00:04:00,FLAKY
+CheckoutTest,Verify checkout process,27.59,FAIL,Incorrect calculation result,qa,2,2026-04-07 14:02:00,REAL_BUG
+CartTest,Verify shopping cart functionality,7.17,PASS,,qa,2,2026-04-29 11:53:00,FLAKY
+PasswordResetTest,Verify password reset,21.97,FAIL,Network connection refused,staging,0,2026-03-14 14:04:00,ENVIRONMENT
+LogoutTest,Verify user logout,16.13,FAIL,Service unavailable,qa,0,2026-06-18 00:34:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,6.92,PASS,,qa,0,2026-03-09 20:07:00,REAL_BUG
+PaymentTest,Verify payment processing,26.59,PASS,,production,0,2026-03-16 18:51:00,FLAKY
+ProfileTest,Verify user profile update,20.76,PASS,,production,3,2026-06-26 06:59:00,DATA_ISSUE
+CartTest,Verify shopping cart functionality,27.27,FAIL,Unexpected API response,staging,0,2026-02-10 19:44:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,7.83,PASS,,production,0,2026-05-27 22:48:00,FLAKY
+LogoutTest,Verify user logout,37.37,PASS,,qa,1,2026-04-12 08:25:00,ENVIRONMENT
+LoginTest,Verify user login functionality,32.13,PASS,,staging,0,2026-05-08 22:08:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,10.62,FAIL,Unexpected API response,staging,0,2026-01-13 16:01:00,DATA_ISSUE
+PaymentTest,Verify payment processing,6.85,PASS,,staging,1,2026-03-18 10:16:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,33.31,FAIL,Unexpected API response,qa,2,2026-01-16 11:10:00,FLAKY
+LoginTest,Verify user login functionality,5.09,PASS,,staging,0,2026-05-01 12:03:00,REAL_BUG
+LogoutTest,Verify user logout,14.47,FAIL,Timeout waiting for element,staging,2,2026-03-20 06:19:00,FLAKY
+CheckoutTest,Verify checkout process,23.44,PASS,,production,1,2026-02-10 03:27:00,FLAKY
+LogoutTest,Verify user logout,11.59,FAIL,Required test data not found,staging,3,2026-02-22 16:36:00,DATA_ISSUE
+ProfileTest,Verify user profile update,21.09,FAIL,Request timed out,qa,0,2026-02-11 21:22:00,REAL_BUG
+PasswordResetTest,Verify password reset,17.88,PASS,,qa,0,2026-01-08 16:49:00,FLAKY
+LogoutTest,Verify user logout,39.21,PASS,,qa,1,2026-03-15 14:57:00,REAL_BUG
+LogoutTest,Verify user logout,43.58,FAIL,Unexpected API response,staging,0,2026-06-01 11:10:00,FLAKY
+ProfileTest,Verify user profile update,13.22,PASS,,qa,1,2026-01-15 07:36:00,REAL_BUG
+LogoutTest,Verify user logout,12.31,PASS,,production,2,2026-04-03 22:20:00,DATA_ISSUE
+CheckoutTest,Verify checkout process,35.6,FAIL,Service unavailable,production,0,2026-02-13 00:16:00,FLAKY
+CheckoutTest,Verify checkout process,28.3,FAIL,Unexpected service response,production,2,2026-02-02 05:57:00,REAL_BUG
+RegistrationTest,Verify new user registration,27.34,PASS,,qa,1,2026-04-28 01:16:00,FLAKY
+OrderHistoryTest,Verify order history,16.28,PASS,,staging,1,2026-03-22 12:02:00,FLAKY
+CartTest,Verify shopping cart functionality,17.78,PASS,,staging,0,2026-03-24 06:26:00,ENVIRONMENT
+LoginTest,Verify user login functionality,6.22,PASS,,production,2,2026-04-22 23:00:00,REAL_BUG
+OrderHistoryTest,Verify order history,26.28,PASS,,production,2,2026-03-23 20:54:00,FLAKY
+OrderHistoryTest,Verify order history,22.98,FAIL,Database connection timeout,staging,0,2026-01-19 20:12:00,ENVIRONMENT
+ProfileTest,Verify user profile update,30.14,FAIL,Unexpected API response,staging,0,2026-03-21 23:51:00,DATA_ISSUE
+PasswordResetTest,Verify password reset,18.66,FAIL,Intermittent connection timeout,staging,0,2026-05-04 14:08:00,FLAKY
+OrderHistoryTest,Verify order history,17.06,FAIL,Request timed out,qa,0,2026-03-12 08:55:00,REAL_BUG
+CartTest,Verify shopping cart functionality,43.51,PASS,,production,1,2026-03-02 16:28:00,FLAKY
+CheckoutTest,Verify checkout process,17.69,FAIL,Service unavailable,qa,3,2026-03-13 08:29:00,FLAKY
+PaymentTest,Verify payment processing,16.0,PASS,,staging,0,2026-05-29 00:51:00,FLAKY
+PaymentTest,Verify payment processing,34.03,PASS,,qa,1,2026-01-18 00:18:00,ENVIRONMENT
+LogoutTest,Verify user logout,15.97,FAIL,Test exceeded expected execution time,staging,3,2026-02-04 22:53:00,FLAKY
+SearchTest,Verify product search,15.42,FAIL,Assertion failed: expected value does not match actual value,qa,2,2026-06-02 00:41:00,DATA_ISSUE
+PasswordResetTest,Verify password reset,35.18,FAIL,Incorrect calculation result,production,0,2026-01-30 12:52:00,REAL_BUG
+PaymentTest,Verify payment processing,36.98,PASS,,staging,0,2026-01-08 22:53:00,ENVIRONMENT
+LogoutTest,Verify user logout,43.72,PASS,,qa,1,2026-05-23 16:28:00,FLAKY
+RegistrationTest,Verify new user registration,43.56,FAIL,Element displayed incorrect value,staging,2,2026-05-04 11:34:00,REAL_BUG
+OrderHistoryTest,Verify order history,14.83,FAIL,Assertion failed: expected value does not match actual value,staging,0,2026-06-25 21:41:00,DATA_ISSUE
+PaymentTest,Verify payment processing,8.81,PASS,,qa,0,2026-03-29 11:43:00,ENVIRONMENT
+ProfileTest,Verify user profile update,38.53,FAIL,Test exceeded expected execution time,production,2,2026-05-19 22:06:00,FLAKY
+PaymentTest,Verify payment processing,9.19,PASS,,production,1,2026-05-29 16:13:00,FLAKY
+RegistrationTest,Verify new user registration,20.43,PASS,,staging,0,2026-02-12 22:07:00,DATA_ISSUE
+LogoutTest,Verify user logout,4.18,FAIL,Unexpected API response,qa,3,2026-03-03 00:54:00,DATA_ISSUE
+PaymentTest,Verify payment processing,37.85,FAIL,Element displayed incorrect value,qa,1,2026-03-27 09:34:00,REAL_BUG
+RegistrationTest,Verify new user registration,3.8,PASS,,production,0,2026-04-10 21:45:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,15.1,FAIL,Timeout waiting for element,production,0,2026-03-18 10:14:00,FLAKY
+OrderHistoryTest,Verify order history,41.02,FAIL,Timeout waiting for element,qa,1,2026-04-04 19:42:00,FLAKY
+OrderHistoryTest,Verify order history,21.03,FAIL,Element displayed incorrect value,qa,1,2026-03-17 20:00:00,REAL_BUG
+PaymentTest,Verify payment processing,43.94,FAIL,Request timed out,qa,0,2026-04-03 08:32:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,22.75,FAIL,Test exceeded expected execution time,staging,1,2026-05-17 01:04:00,FLAKY
+LoginTest,Verify user login functionality,13.13,FAIL,Timeout waiting for element,qa,1,2026-05-14 20:04:00,FLAKY
+ProfileTest,Verify user profile update,17.22,FAIL,Unexpected service response,staging,1,2026-06-28 13:15:00,REAL_BUG
+RegistrationTest,Verify new user registration,5.65,PASS,,staging,2,2026-01-07 17:35:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,40.2,PASS,,staging,0,2026-04-04 19:44:00,REAL_BUG
+LogoutTest,Verify user logout,13.64,PASS,,production,2,2026-02-22 02:02:00,DATA_ISSUE
+ProfileTest,Verify user profile update,30.54,FAIL,Test data validation failed,staging,0,2026-06-11 22:13:00,DATA_ISSUE
+LogoutTest,Verify user logout,19.24,PASS,,staging,3,2026-05-06 23:41:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,14.2,PASS,,staging,0,2026-01-15 08:50:00,FLAKY
+LogoutTest,Verify user logout,25.91,PASS,,production,0,2026-03-01 16:42:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,20.9,PASS,,staging,1,2026-03-23 09:32:00,FLAKY
+LoginTest,Verify user login functionality,28.82,PASS,,qa,1,2026-06-28 09:48:00,ENVIRONMENT
+LoginTest,Verify user login functionality,18.26,FAIL,Unexpected service response,production,2,2026-06-23 10:48:00,REAL_BUG
+LoginTest,Verify user login functionality,35.82,FAIL,Assertion failed: expected value does not match actual value,production,0,2026-05-22 17:23:00,REAL_BUG
+ProfileTest,Verify user profile update,4.36,PASS,,staging,0,2026-06-22 17:28:00,FLAKY
+ProfileTest,Verify user profile update,27.1,PASS,,staging,1,2026-02-27 05:34:00,FLAKY
+CartTest,Verify shopping cart functionality,33.9,FAIL,Incorrect calculation result,qa,1,2026-01-22 10:30:00,REAL_BUG
+CartTest,Verify shopping cart functionality,12.01,PASS,,qa,1,2026-06-16 20:09:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,6.11,FAIL,Unexpected service response,staging,0,2026-01-16 23:33:00,REAL_BUG
+ProfileTest,Verify user profile update,26.1,PASS,,staging,0,2026-06-04 23:39:00,ENVIRONMENT
+PaymentTest,Verify payment processing,29.78,PASS,,qa,2,2026-02-10 19:43:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,12.94,PASS,,staging,1,2026-04-11 20:33:00,DATA_ISSUE
+OrderHistoryTest,Verify order history,26.17,PASS,,production,1,2026-01-12 23:15:00,FLAKY
+CartTest,Verify shopping cart functionality,23.1,PASS,,staging,1,2026-05-30 21:13:00,FLAKY
+OrderHistoryTest,Verify order history,29.98,PASS,,qa,1,2026-04-05 04:22:00,REAL_BUG
+ProfileTest,Verify user profile update,26.15,PASS,,production,1,2026-03-20 18:08:00,REAL_BUG
+PasswordResetTest,Verify password reset,8.21,FAIL,Required test data not found,production,0,2026-02-28 17:43:00,DATA_ISSUE
+SearchTest,Verify product search,40.59,PASS,,staging,2,2026-02-05 17:39:00,FLAKY
+PasswordResetTest,Verify password reset,28.81,PASS,,qa,0,2026-01-31 16:46:00,FLAKY
+OrderHistoryTest,Verify order history,30.67,FAIL,Assertion failed: expected value does not match actual value,staging,2,2026-06-03 09:04:00,DATA_ISSUE
+OrderHistoryTest,Verify order history,6.41,PASS,,qa,3,2026-02-18 04:17:00,REAL_BUG
+SearchTest,Verify product search,29.84,FAIL,Unexpected API response,qa,1,2026-02-22 17:35:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,31.77,PASS,,production,0,2026-05-06 08:35:00,FLAKY
+LoginTest,Verify user login functionality,22.51,FAIL,Element displayed incorrect value,staging,0,2026-06-06 19:53:00,REAL_BUG
+ProfileTest,Verify user profile update,43.97,PASS,,staging,0,2026-04-04 17:58:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,8.15,FAIL,Element displayed incorrect value,production,1,2026-01-10 05:05:00,REAL_BUG
+CartTest,Verify shopping cart functionality,20.56,PASS,,production,3,2026-05-29 02:08:00,DATA_ISSUE
+ProfileTest,Verify user profile update,10.97,PASS,,qa,0,2026-03-26 23:32:00,DATA_ISSUE
+RegistrationTest,Verify new user registration,6.78,FAIL,Duplicate test data detected,production,0,2026-02-09 03:58:00,DATA_ISSUE
+OrderHistoryTest,Verify order history,23.79,FAIL,Service unavailable,qa,2,2026-03-27 16:01:00,FLAKY
+CartTest,Verify shopping cart functionality,21.1,PASS,,qa,2,2026-03-08 14:06:00,FLAKY
+LogoutTest,Verify user logout,26.95,FAIL,Unexpected API response,staging,0,2026-01-14 09:15:00,FLAKY
+LogoutTest,Verify user logout,14.75,PASS,,qa,3,2026-04-22 05:41:00,FLAKY
+CheckoutTest,Verify checkout process,18.67,FAIL,Request timed out,staging,3,2026-05-18 10:29:00,REAL_BUG
+PaymentTest,Verify payment processing,24.0,FAIL,Element displayed incorrect value,qa,0,2026-03-02 15:04:00,REAL_BUG
+RegistrationTest,Verify new user registration,40.51,FAIL,Unexpected API response,staging,0,2026-01-30 13:58:00,FLAKY
+LogoutTest,Verify user logout,15.57,PASS,,qa,0,2026-04-07 21:49:00,DATA_ISSUE
+RegistrationTest,Verify new user registration,37.26,FAIL,Unexpected API response,production,0,2026-06-28 09:14:00,ENVIRONMENT
+LogoutTest,Verify user logout,33.46,PASS,,production,1,2026-04-19 15:56:00,FLAKY
+RegistrationTest,Verify new user registration,43.83,PASS,,production,1,2026-05-12 07:50:00,FLAKY
+LoginTest,Verify user login functionality,29.42,FAIL,Intermittent connection timeout,production,1,2026-05-30 13:53:00,FLAKY
+SearchTest,Verify product search,7.62,PASS,,staging,0,2026-03-18 05:40:00,REAL_BUG
+PaymentTest,Verify payment processing,24.08,FAIL,Intermittent connection timeout,qa,1,2026-05-13 10:04:00,FLAKY
+LoginTest,Verify user login functionality,26.56,FAIL,Environment service did not respond,qa,3,2026-03-10 14:22:00,ENVIRONMENT
+ProfileTest,Verify user profile update,25.39,FAIL,Unexpected API response,qa,1,2026-05-04 22:13:00,DATA_ISSUE
+CartTest,Verify shopping cart functionality,13.35,FAIL,Service unavailable,staging,1,2026-05-21 09:18:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,23.54,PASS,,qa,1,2026-06-19 23:23:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,25.81,PASS,,staging,2,2026-05-29 23:32:00,FLAKY
+ProfileTest,Verify user profile update,15.2,PASS,,qa,0,2026-01-15 09:17:00,DATA_ISSUE
+ProfileTest,Verify user profile update,34.39,PASS,,qa,0,2026-02-19 08:35:00,DATA_ISSUE
+PasswordResetTest,Verify password reset,28.86,FAIL,Service unavailable,production,1,2026-05-02 22:32:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,7.21,FAIL,Incorrect calculation result,production,0,2026-05-05 00:10:00,REAL_BUG
+PaymentTest,Verify payment processing,42.02,FAIL,Incorrect calculation result,staging,1,2026-04-29 10:14:00,REAL_BUG
+SearchTest,Verify product search,14.99,FAIL,Database connection timeout,qa,0,2026-04-15 12:25:00,ENVIRONMENT
+SearchTest,Verify product search,42.34,PASS,,production,3,2026-03-18 01:46:00,FLAKY
+PaymentTest,Verify payment processing,38.12,FAIL,Required test data not found,qa,2,2026-06-25 03:36:00,DATA_ISSUE
+CartTest,Verify shopping cart functionality,26.85,FAIL,Test data validation failed,staging,0,2026-03-24 17:04:00,DATA_ISSUE
+PasswordResetTest,Verify password reset,8.64,PASS,,staging,1,2026-02-05 02:24:00,FLAKY
+CheckoutTest,Verify checkout process,30.23,PASS,,production,2,2026-05-15 02:19:00,FLAKY
+ProfileTest,Verify user profile update,34.81,PASS,,qa,0,2026-06-13 07:14:00,ENVIRONMENT
+LogoutTest,Verify user logout,6.64,FAIL,Service unavailable,production,1,2026-03-28 22:01:00,ENVIRONMENT
+ProfileTest,Verify user profile update,19.11,FAIL,Test data validation failed,staging,1,2026-02-24 23:13:00,DATA_ISSUE
+OrderHistoryTest,Verify order history,30.45,FAIL,Database connection timeout,qa,1,2026-01-22 12:31:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,24.11,FAIL,Service unavailable,staging,2,2026-05-06 15:55:00,FLAKY
+CheckoutTest,Verify checkout process,18.44,PASS,,production,0,2026-03-29 01:12:00,ENVIRONMENT
+PaymentTest,Verify payment processing,18.69,PASS,,staging,2,2026-05-18 20:54:00,FLAKY
+PasswordResetTest,Verify password reset,35.0,PASS,,qa,1,2026-06-08 22:47:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,18.19,PASS,,production,3,2026-01-12 05:49:00,FLAKY
+PasswordResetTest,Verify password reset,25.54,FAIL,Assertion failed: expected value does not match actual value,staging,0,2026-01-22 03:51:00,DATA_ISSUE
+SearchTest,Verify product search,40.75,FAIL,Database connection timeout,staging,1,2026-01-25 00:28:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,26.47,PASS,,staging,1,2026-05-12 16:03:00,FLAKY
+LoginTest,Verify user login functionality,34.32,PASS,,production,1,2026-03-19 03:09:00,FLAKY
+ProfileTest,Verify user profile update,5.53,FAIL,Environment service did not respond,production,2,2026-02-22 06:19:00,ENVIRONMENT
+LogoutTest,Verify user logout,29.94,FAIL,Incorrect calculation result,staging,2,2026-06-12 06:17:00,REAL_BUG
+LogoutTest,Verify user logout,18.85,PASS,,qa,0,2026-06-09 04:59:00,FLAKY
+PasswordResetTest,Verify password reset,7.98,PASS,,staging,3,2026-04-07 06:32:00,REAL_BUG
+PaymentTest,Verify payment processing,3.15,FAIL,Network connection refused,staging,0,2026-05-03 14:33:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,12.65,FAIL,Element not found after waiting,staging,1,2026-02-04 07:29:00,FLAKY
+CheckoutTest,Verify checkout process,28.83,PASS,,production,3,2026-02-13 19:29:00,REAL_BUG
+SearchTest,Verify product search,21.75,FAIL,Assertion failed: expected value does not match actual value,production,1,2026-05-15 19:28:00,REAL_BUG
+LoginTest,Verify user login functionality,12.13,FAIL,Timeout waiting for element,production,2,2026-04-02 17:33:00,FLAKY
+CartTest,Verify shopping cart functionality,27.2,PASS,,qa,1,2026-05-29 23:34:00,REAL_BUG
+ProfileTest,Verify user profile update,44.4,PASS,,staging,1,2026-02-24 16:54:00,REAL_BUG
+CartTest,Verify shopping cart functionality,39.95,PASS,,qa,3,2026-05-04 13:30:00,REAL_BUG
+LogoutTest,Verify user logout,17.47,FAIL,Intermittent connection timeout,qa,1,2026-02-28 00:34:00,FLAKY
+LogoutTest,Verify user logout,10.72,FAIL,Element not found after waiting,production,1,2026-02-24 17:56:00,FLAKY
+PaymentTest,Verify payment processing,26.62,PASS,,qa,3,2026-04-07 11:34:00,ENVIRONMENT
+PaymentTest,Verify payment processing,16.87,FAIL,Intermittent connection timeout,staging,0,2026-01-17 19:58:00,FLAKY
+PasswordResetTest,Verify password reset,14.28,FAIL,Request timed out,production,1,2026-06-09 00:54:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,33.42,PASS,,staging,1,2026-02-08 00:39:00,REAL_BUG
+ProfileTest,Verify user profile update,11.9,PASS,,qa,0,2026-01-22 08:33:00,FLAKY
+RegistrationTest,Verify new user registration,32.56,PASS,,production,0,2026-04-11 12:04:00,DATA_ISSUE
+ProfileTest,Verify user profile update,25.41,FAIL,Network connection refused,staging,0,2026-04-04 08:31:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,33.34,PASS,,staging,2,2026-06-16 10:46:00,FLAKY
+SearchTest,Verify product search,26.63,FAIL,Element not found after waiting,production,0,2026-02-17 11:20:00,FLAKY
+PasswordResetTest,Verify password reset,20.54,PASS,,staging,0,2026-02-11 20:58:00,DATA_ISSUE
+LogoutTest,Verify user logout,26.13,FAIL,Test exceeded expected execution time,staging,3,2026-05-19 23:10:00,FLAKY
+RegistrationTest,Verify new user registration,23.61,PASS,,staging,0,2026-01-31 19:31:00,DATA_ISSUE
+PaymentTest,Verify payment processing,41.51,FAIL,Unexpected API response,production,1,2026-04-06 09:08:00,ENVIRONMENT
+LoginTest,Verify user login functionality,37.36,FAIL,Database connection timeout,staging,0,2026-01-26 00:42:00,ENVIRONMENT
+SearchTest,Verify product search,12.19,FAIL,Assertion failed: expected value does not match actual value,qa,1,2026-04-27 02:16:00,REAL_BUG
+OrderHistoryTest,Verify order history,3.66,PASS,,staging,1,2026-01-03 03:46:00,DATA_ISSUE
+LoginTest,Verify user login functionality,44.05,FAIL,Service unavailable,qa,0,2026-03-20 09:12:00,FLAKY
+PaymentTest,Verify payment processing,9.25,FAIL,Request timed out,staging,0,2026-05-29 09:43:00,REAL_BUG
+ProfileTest,Verify user profile update,18.67,FAIL,Unexpected API response,production,1,2026-05-07 22:16:00,FLAKY
+SearchTest,Verify product search,6.39,PASS,,qa,3,2026-05-19 06:40:00,FLAKY
+LoginTest,Verify user login functionality,26.21,FAIL,Assertion failed: expected value does not match actual value,qa,0,2026-02-01 04:47:00,REAL_BUG
+CheckoutTest,Verify checkout process,35.94,FAIL,Timeout waiting for element,qa,1,2026-06-17 07:50:00,FLAKY
+LoginTest,Verify user login functionality,32.08,PASS,,staging,1,2026-01-09 11:25:00,REAL_BUG
+CheckoutTest,Verify checkout process,25.81,FAIL,Service unavailable,staging,1,2026-01-03 20:24:00,ENVIRONMENT
+SearchTest,Verify product search,32.93,PASS,,production,0,2026-02-24 11:33:00,FLAKY
+PaymentTest,Verify payment processing,38.68,PASS,,qa,1,2026-03-02 09:20:00,FLAKY
+LogoutTest,Verify user logout,44.52,FAIL,Request timed out,qa,2,2026-06-27 08:53:00,ENVIRONMENT
+ProfileTest,Verify user profile update,38.22,FAIL,Request timed out,qa,0,2026-03-14 05:13:00,REAL_BUG
+ProfileTest,Verify user profile update,44.69,FAIL,Unexpected API response,qa,1,2026-06-21 07:54:00,REAL_BUG
+LogoutTest,Verify user logout,30.75,PASS,,qa,0,2026-02-23 18:31:00,FLAKY
+SearchTest,Verify product search,9.48,FAIL,Unexpected API response,production,2,2026-05-15 15:36:00,ENVIRONMENT
+LogoutTest,Verify user logout,3.22,FAIL,Test exceeded expected execution time,staging,0,2026-01-19 14:39:00,FLAKY
+PaymentTest,Verify payment processing,26.39,FAIL,Assertion failed: expected value does not match actual value,production,1,2026-01-17 07:33:00,REAL_BUG
+ProfileTest,Verify user profile update,35.95,PASS,,production,2,2026-02-23 03:06:00,FLAKY
+LogoutTest,Verify user logout,40.85,FAIL,Element not found after waiting,qa,3,2026-04-05 20:44:00,FLAKY
+PaymentTest,Verify payment processing,14.29,FAIL,Service unavailable,production,0,2026-01-31 10:32:00,ENVIRONMENT
+LogoutTest,Verify user logout,35.87,FAIL,Element not found after waiting,qa,0,2026-04-24 18:48:00,FLAKY
+RegistrationTest,Verify new user registration,7.49,FAIL,Intermittent connection timeout,staging,0,2026-06-03 05:03:00,FLAKY
+OrderHistoryTest,Verify order history,21.49,PASS,,qa,1,2026-06-27 08:27:00,FLAKY
+OrderHistoryTest,Verify order history,42.79,FAIL,Unexpected API response,production,0,2026-06-25 14:17:00,REAL_BUG
+LogoutTest,Verify user logout,32.19,FAIL,Assertion failed: expected value does not match actual value,production,1,2026-03-01 07:49:00,DATA_ISSUE
+LogoutTest,Verify user logout,18.33,PASS,,production,3,2026-04-18 19:28:00,FLAKY
+PasswordResetTest,Verify password reset,4.13,PASS,,qa,2,2026-02-08 03:58:00,REAL_BUG
+RegistrationTest,Verify new user registration,5.9,PASS,,staging,2,2026-05-03 12:17:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,13.61,FAIL,Incorrect calculation result,staging,0,2026-01-14 11:09:00,REAL_BUG
+RegistrationTest,Verify new user registration,19.83,FAIL,Unexpected API response,staging,1,2026-04-09 23:13:00,DATA_ISSUE
+LoginTest,Verify user login functionality,40.61,FAIL,Unexpected API response,production,1,2026-01-20 21:50:00,ENVIRONMENT
+SearchTest,Verify product search,30.17,FAIL,Unexpected API response,qa,0,2026-04-28 17:39:00,ENVIRONMENT
+LogoutTest,Verify user logout,36.44,FAIL,Invalid test data,staging,0,2026-02-10 09:56:00,DATA_ISSUE
+PasswordResetTest,Verify password reset,31.88,PASS,,staging,0,2026-03-13 04:53:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,24.02,PASS,,production,0,2026-03-29 21:15:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,6.61,PASS,,qa,2,2026-01-26 18:59:00,FLAKY
+ProfileTest,Verify user profile update,11.69,PASS,,staging,1,2026-01-18 18:31:00,FLAKY
+RegistrationTest,Verify new user registration,5.82,FAIL,Unexpected API response,production,0,2026-01-05 02:40:00,ENVIRONMENT
+ProfileTest,Verify user profile update,9.9,PASS,,production,3,2026-04-04 22:24:00,ENVIRONMENT
+PaymentTest,Verify payment processing,20.91,FAIL,Intermittent connection timeout,qa,1,2026-02-03 13:52:00,FLAKY
+PaymentTest,Verify payment processing,4.23,FAIL,Service unavailable,staging,1,2026-04-18 19:22:00,ENVIRONMENT
+LogoutTest,Verify user logout,11.64,PASS,,production,2,2026-04-16 02:28:00,FLAKY
+CheckoutTest,Verify checkout process,18.36,FAIL,Database connection timeout,staging,0,2026-05-03 02:20:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,28.07,PASS,,qa,1,2026-01-21 19:05:00,FLAKY
+ProfileTest,Verify user profile update,10.25,PASS,,staging,1,2026-06-17 05:47:00,FLAKY
+OrderHistoryTest,Verify order history,16.15,PASS,,production,0,2026-02-03 07:44:00,FLAKY
+ProfileTest,Verify user profile update,20.57,FAIL,Environment service did not respond,staging,0,2026-02-03 19:34:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,30.1,PASS,,qa,3,2026-01-31 09:02:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,38.36,FAIL,Test exceeded expected execution time,production,1,2026-03-30 05:17:00,FLAKY
+PaymentTest,Verify payment processing,26.59,FAIL,Incorrect calculation result,qa,1,2026-03-31 12:22:00,REAL_BUG
+LogoutTest,Verify user logout,10.02,FAIL,Service unavailable,staging,1,2026-01-06 22:50:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,35.79,FAIL,Incorrect calculation result,qa,1,2026-04-03 23:44:00,REAL_BUG
+CheckoutTest,Verify checkout process,25.81,FAIL,Unexpected API response,production,3,2026-05-19 08:30:00,FLAKY
+RegistrationTest,Verify new user registration,7.3,PASS,,production,2,2026-02-24 04:42:00,FLAKY
+LoginTest,Verify user login functionality,37.3,FAIL,Timeout waiting for element,production,1,2026-02-08 04:58:00,FLAKY
+OrderHistoryTest,Verify order history,28.63,PASS,,qa,1,2026-01-26 08:19:00,ENVIRONMENT
+SearchTest,Verify product search,26.94,PASS,,qa,1,2026-04-09 01:54:00,ENVIRONMENT
+PaymentTest,Verify payment processing,15.15,PASS,,qa,0,2026-06-29 09:39:00,FLAKY
+CheckoutTest,Verify checkout process,20.29,PASS,,staging,0,2026-06-07 20:11:00,REAL_BUG
+PaymentTest,Verify payment processing,9.14,FAIL,Service unavailable,qa,0,2026-03-13 11:44:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,29.37,FAIL,Assertion failed: expected value does not match actual value,qa,0,2026-05-25 15:39:00,REAL_BUG
+CheckoutTest,Verify checkout process,32.18,PASS,,staging,2,2026-06-22 23:43:00,FLAKY
+RegistrationTest,Verify new user registration,35.51,FAIL,Service unavailable,staging,2,2026-04-26 13:39:00,FLAKY
+ProfileTest,Verify user profile update,19.7,PASS,,production,3,2026-04-01 01:26:00,DATA_ISSUE
+CartTest,Verify shopping cart functionality,25.99,FAIL,Intermittent connection timeout,staging,0,2026-06-12 18:37:00,FLAKY
+LoginTest,Verify user login functionality,38.14,FAIL,Element displayed incorrect value,staging,0,2026-03-25 02:33:00,REAL_BUG
+LoginTest,Verify user login functionality,44.82,FAIL,Unexpected API response,staging,3,2026-01-29 22:34:00,DATA_ISSUE
+CartTest,Verify shopping cart functionality,6.46,FAIL,Unexpected service response,production,1,2026-01-10 10:15:00,REAL_BUG
+LogoutTest,Verify user logout,34.72,PASS,,production,1,2026-05-09 02:30:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,8.57,FAIL,Unexpected service response,staging,0,2026-01-02 16:34:00,REAL_BUG
+LoginTest,Verify user login functionality,44.5,PASS,,production,1,2026-03-28 23:06:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,36.85,FAIL,Unexpected API response,staging,0,2026-01-25 23:07:00,REAL_BUG
+LogoutTest,Verify user logout,8.59,PASS,,production,3,2026-01-13 10:53:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,9.89,PASS,,production,0,2026-04-25 08:07:00,FLAKY
+PaymentTest,Verify payment processing,21.58,PASS,,production,0,2026-01-26 11:43:00,DATA_ISSUE
+CheckoutTest,Verify checkout process,43.46,FAIL,Element not found after waiting,production,0,2026-02-20 10:05:00,FLAKY
+CheckoutTest,Verify checkout process,33.29,FAIL,Unexpected service response,production,0,2026-06-04 08:29:00,REAL_BUG
+CartTest,Verify shopping cart functionality,10.92,FAIL,Unexpected service response,production,0,2026-05-23 16:28:00,REAL_BUG
+SearchTest,Verify product search,23.98,FAIL,Unexpected API response,production,1,2026-06-29 15:45:00,FLAKY
+ProfileTest,Verify user profile update,39.15,FAIL,Test data validation failed,qa,1,2026-05-05 07:49:00,DATA_ISSUE
+PaymentTest,Verify payment processing,35.36,PASS,,production,0,2026-01-03 12:15:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,42.84,PASS,,staging,0,2026-04-25 10:16:00,REAL_BUG
+PasswordResetTest,Verify password reset,19.9,FAIL,Request timed out,qa,1,2026-01-28 19:04:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,41.68,FAIL,Element displayed incorrect value,qa,3,2026-03-01 11:35:00,REAL_BUG
+LogoutTest,Verify user logout,30.29,PASS,,staging,1,2026-05-08 04:33:00,FLAKY
+LogoutTest,Verify user logout,5.43,PASS,,staging,0,2026-01-22 02:45:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,30.98,FAIL,Service unavailable,production,1,2026-01-03 07:20:00,ENVIRONMENT
+PaymentTest,Verify payment processing,43.03,FAIL,Unexpected API response,staging,1,2026-01-31 09:28:00,ENVIRONMENT
+ProfileTest,Verify user profile update,14.29,PASS,,production,2,2026-03-02 23:41:00,REAL_BUG
+LogoutTest,Verify user logout,32.92,FAIL,Timeout waiting for element,staging,1,2026-03-24 20:47:00,FLAKY
+PasswordResetTest,Verify password reset,26.81,PASS,,staging,0,2026-05-21 18:43:00,FLAKY
+CheckoutTest,Verify checkout process,7.84,PASS,,production,2,2026-01-09 00:24:00,DATA_ISSUE
+LoginTest,Verify user login functionality,19.09,FAIL,Assertion failed: expected value does not match actual value,qa,0,2026-05-27 04:51:00,REAL_BUG
+LogoutTest,Verify user logout,41.47,FAIL,Assertion failed: expected value does not match actual value,qa,0,2026-03-09 20:49:00,REAL_BUG
+CheckoutTest,Verify checkout process,10.53,PASS,,production,2,2026-06-23 16:26:00,FLAKY
+LogoutTest,Verify user logout,14.86,FAIL,Unexpected API response,production,2,2026-04-11 16:29:00,REAL_BUG
+RegistrationTest,Verify new user registration,26.68,FAIL,Request timed out,production,0,2026-03-26 10:55:00,REAL_BUG
+ProfileTest,Verify user profile update,35.45,PASS,,qa,0,2026-05-19 10:35:00,FLAKY
+SearchTest,Verify product search,4.0,PASS,,qa,1,2026-06-02 20:09:00,REAL_BUG
+LoginTest,Verify user login functionality,30.61,FAIL,Unexpected API response,staging,2,2026-01-19 22:09:00,DATA_ISSUE
+SearchTest,Verify product search,23.67,FAIL,Element not found after waiting,qa,0,2026-02-20 22:34:00,FLAKY
+CheckoutTest,Verify checkout process,38.51,FAIL,Unexpected API response,staging,1,2026-06-27 09:53:00,REAL_BUG
+CheckoutTest,Verify checkout process,29.76,PASS,,qa,0,2026-04-14 08:50:00,FLAKY
+LoginTest,Verify user login functionality,12.94,PASS,,staging,0,2026-06-18 13:56:00,FLAKY
+LogoutTest,Verify user logout,16.36,PASS,,production,0,2026-06-21 18:27:00,ENVIRONMENT
+SearchTest,Verify product search,7.58,PASS,,staging,0,2026-03-26 20:13:00,REAL_BUG
+ProfileTest,Verify user profile update,43.51,PASS,,staging,0,2026-03-26 08:23:00,FLAKY
+CartTest,Verify shopping cart functionality,36.92,FAIL,Unexpected API response,qa,0,2026-04-20 19:52:00,DATA_ISSUE
+LoginTest,Verify user login functionality,9.23,PASS,,staging,2,2026-03-14 03:13:00,REAL_BUG
+PasswordResetTest,Verify password reset,37.44,FAIL,Incorrect calculation result,staging,0,2026-04-12 04:59:00,REAL_BUG
+PasswordResetTest,Verify password reset,36.76,FAIL,Assertion failed: expected value does not match actual value,production,0,2026-06-01 03:57:00,REAL_BUG
+SearchTest,Verify product search,18.63,PASS,,qa,1,2026-01-16 07:10:00,REAL_BUG
+OrderHistoryTest,Verify order history,6.15,PASS,,production,3,2026-06-14 07:03:00,FLAKY
+RegistrationTest,Verify new user registration,38.59,FAIL,Database connection timeout,production,2,2026-06-21 12:53:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,21.19,PASS,,staging,2,2026-01-06 08:48:00,REAL_BUG
+LogoutTest,Verify user logout,12.02,FAIL,Network connection refused,staging,0,2026-06-10 19:44:00,ENVIRONMENT
+PaymentTest,Verify payment processing,13.32,FAIL,Incorrect calculation result,qa,0,2026-03-29 04:55:00,REAL_BUG
+LoginTest,Verify user login functionality,20.61,FAIL,Request timed out,production,1,2026-04-25 19:48:00,REAL_BUG
+PasswordResetTest,Verify password reset,35.84,PASS,,qa,0,2026-05-23 06:08:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,16.51,PASS,,production,0,2026-02-28 01:11:00,FLAKY
+OrderHistoryTest,Verify order history,35.7,PASS,,staging,0,2026-04-07 09:07:00,REAL_BUG
+ProfileTest,Verify user profile update,43.91,PASS,,qa,0,2026-02-13 21:36:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,33.96,PASS,,production,2,2026-04-15 19:14:00,FLAKY
+LogoutTest,Verify user logout,38.5,PASS,,qa,0,2026-02-27 21:22:00,FLAKY
+ProfileTest,Verify user profile update,32.42,FAIL,Assertion failed: expected value does not match actual value,production,3,2026-04-13 12:15:00,DATA_ISSUE
+SearchTest,Verify product search,43.76,PASS,,production,1,2026-03-31 06:44:00,ENVIRONMENT
+LoginTest,Verify user login functionality,12.19,FAIL,Assertion failed: expected value does not match actual value,staging,1,2026-06-17 02:20:00,REAL_BUG
+OrderHistoryTest,Verify order history,33.11,FAIL,Unexpected API response,production,3,2026-01-04 23:44:00,REAL_BUG
+PaymentTest,Verify payment processing,35.52,PASS,,staging,2,2026-06-24 20:44:00,FLAKY
+CheckoutTest,Verify checkout process,19.62,PASS,,staging,0,2026-02-28 17:28:00,FLAKY
+PaymentTest,Verify payment processing,21.35,PASS,,staging,1,2026-04-29 04:18:00,DATA_ISSUE
+ProfileTest,Verify user profile update,32.13,PASS,,staging,3,2026-02-10 15:20:00,REAL_BUG
+OrderHistoryTest,Verify order history,33.83,FAIL,Service unavailable,qa,0,2026-01-01 07:51:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,43.54,PASS,,qa,0,2026-02-27 22:18:00,FLAKY
+OrderHistoryTest,Verify order history,42.34,FAIL,Unexpected service response,production,0,2026-02-13 07:49:00,REAL_BUG
+ProfileTest,Verify user profile update,40.18,FAIL,Unexpected API response,qa,0,2026-04-27 08:16:00,DATA_ISSUE
+ProfileTest,Verify user profile update,13.48,FAIL,Test exceeded expected execution time,production,0,2026-05-12 03:32:00,FLAKY
+LoginTest,Verify user login functionality,20.63,FAIL,Incorrect calculation result,staging,0,2026-06-10 12:30:00,REAL_BUG
+LogoutTest,Verify user logout,37.81,FAIL,Unexpected API response,qa,2,2026-05-19 00:48:00,FLAKY
+SearchTest,Verify product search,38.52,FAIL,Unexpected API response,staging,0,2026-06-23 05:52:00,REAL_BUG
+CheckoutTest,Verify checkout process,18.77,FAIL,Request timed out,production,2,2026-03-03 12:31:00,REAL_BUG
+OrderHistoryTest,Verify order history,32.59,PASS,,qa,1,2026-01-31 00:53:00,DATA_ISSUE
+OrderHistoryTest,Verify order history,7.25,FAIL,Required test data not found,staging,0,2026-05-07 22:05:00,DATA_ISSUE
+PasswordResetTest,Verify password reset,14.14,PASS,,production,0,2026-01-18 11:03:00,ENVIRONMENT
+LoginTest,Verify user login functionality,23.62,PASS,,production,0,2026-03-19 20:14:00,FLAKY
+CheckoutTest,Verify checkout process,28.21,PASS,,production,0,2026-02-07 16:11:00,FLAKY
+PaymentTest,Verify payment processing,22.89,PASS,,staging,0,2026-03-27 17:35:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,29.96,FAIL,Test data validation failed,staging,0,2026-03-09 05:56:00,DATA_ISSUE
+PaymentTest,Verify payment processing,22.53,FAIL,Test exceeded expected execution time,qa,0,2026-01-12 05:18:00,FLAKY
+PaymentTest,Verify payment processing,6.6,PASS,,qa,0,2026-03-17 08:44:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,19.26,FAIL,Request timed out,qa,1,2026-06-07 19:31:00,REAL_BUG
+RegistrationTest,Verify new user registration,15.55,FAIL,Service unavailable,production,0,2026-04-02 09:42:00,FLAKY
+OrderHistoryTest,Verify order history,31.46,PASS,,production,1,2026-06-22 19:21:00,DATA_ISSUE
+RegistrationTest,Verify new user registration,43.83,PASS,,production,2,2026-01-08 18:27:00,REAL_BUG
+LogoutTest,Verify user logout,11.48,PASS,,production,2,2026-06-01 20:16:00,REAL_BUG
+OrderHistoryTest,Verify order history,41.4,PASS,,staging,0,2026-04-12 06:47:00,FLAKY
+LogoutTest,Verify user logout,24.83,PASS,,production,3,2026-05-24 04:29:00,FLAKY
+OrderHistoryTest,Verify order history,7.73,PASS,,qa,0,2026-04-18 00:43:00,FLAKY
+OrderHistoryTest,Verify order history,41.85,PASS,,production,1,2026-05-24 00:58:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,39.87,PASS,,qa,0,2026-03-30 09:33:00,DATA_ISSUE
+OrderHistoryTest,Verify order history,14.57,FAIL,Request timed out,qa,0,2026-05-07 06:39:00,ENVIRONMENT
+LogoutTest,Verify user logout,16.92,PASS,,qa,0,2026-03-28 12:15:00,REAL_BUG
+CartTest,Verify shopping cart functionality,37.33,FAIL,Test data validation failed,staging,0,2026-06-06 05:41:00,DATA_ISSUE
+CheckoutTest,Verify checkout process,15.62,FAIL,Test data validation failed,staging,2,2026-05-13 16:10:00,DATA_ISSUE
+LogoutTest,Verify user logout,21.55,FAIL,Environment service did not respond,qa,3,2026-03-30 04:38:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,24.64,PASS,,staging,0,2026-05-10 04:09:00,DATA_ISSUE
+PasswordResetTest,Verify password reset,25.02,PASS,,production,1,2026-02-05 02:11:00,FLAKY
+SearchTest,Verify product search,22.17,FAIL,Unexpected API response,production,3,2026-02-19 21:01:00,ENVIRONMENT
+ProfileTest,Verify user profile update,29.69,FAIL,Database connection timeout,production,0,2026-03-09 19:19:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,39.56,FAIL,Test exceeded expected execution time,staging,1,2026-01-30 18:24:00,FLAKY
+CartTest,Verify shopping cart functionality,14.97,PASS,,production,0,2026-06-05 10:24:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,12.3,FAIL,Service unavailable,staging,0,2026-04-29 14:49:00,ENVIRONMENT
+LogoutTest,Verify user logout,43.62,PASS,,staging,1,2026-06-15 22:28:00,FLAKY
+PaymentTest,Verify payment processing,3.36,PASS,,staging,0,2026-05-10 18:00:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,17.65,FAIL,Intermittent connection timeout,staging,0,2026-05-04 06:42:00,FLAKY
+PasswordResetTest,Verify password reset,7.3,FAIL,Unexpected API response,staging,1,2026-04-13 05:02:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,7.54,FAIL,Network connection refused,qa,0,2026-03-01 04:32:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,40.48,PASS,,production,0,2026-04-05 04:05:00,FLAKY
+SearchTest,Verify product search,36.7,PASS,,qa,1,2026-02-28 04:17:00,DATA_ISSUE
+PaymentTest,Verify payment processing,44.89,PASS,,staging,0,2026-03-15 15:43:00,ENVIRONMENT
+LogoutTest,Verify user logout,44.78,PASS,,staging,2,2026-05-13 06:20:00,ENVIRONMENT
+SearchTest,Verify product search,22.98,PASS,,staging,3,2026-04-03 08:29:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,39.81,PASS,,production,0,2026-03-27 16:52:00,ENVIRONMENT
+PaymentTest,Verify payment processing,26.48,PASS,,qa,3,2026-06-13 18:22:00,ENVIRONMENT
+ProfileTest,Verify user profile update,12.38,FAIL,Environment service did not respond,staging,2,2026-03-09 15:54:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,7.95,PASS,,qa,0,2026-04-17 05:40:00,FLAKY
+OrderHistoryTest,Verify order history,40.36,FAIL,Unexpected API response,staging,1,2026-04-07 10:53:00,DATA_ISSUE
+CartTest,Verify shopping cart functionality,9.33,PASS,,staging,3,2026-03-16 11:47:00,FLAKY
+OrderHistoryTest,Verify order history,9.02,PASS,,production,2,2026-05-22 19:14:00,DATA_ISSUE
+CheckoutTest,Verify checkout process,10.43,PASS,,production,1,2026-03-24 07:03:00,FLAKY
+CartTest,Verify shopping cart functionality,27.2,PASS,,production,0,2026-01-24 13:22:00,REAL_BUG
+OrderHistoryTest,Verify order history,21.02,FAIL,Timeout waiting for element,production,1,2026-04-08 04:07:00,FLAKY
+SearchTest,Verify product search,40.46,PASS,,qa,2,2026-02-04 16:38:00,ENVIRONMENT
+LoginTest,Verify user login functionality,13.45,PASS,,staging,1,2026-02-26 19:33:00,ENVIRONMENT
+PaymentTest,Verify payment processing,15.86,FAIL,Assertion failed: expected value does not match actual value,staging,0,2026-06-22 15:53:00,REAL_BUG
+CartTest,Verify shopping cart functionality,25.01,PASS,,qa,1,2026-01-25 08:32:00,FLAKY
+ProfileTest,Verify user profile update,34.5,FAIL,Duplicate test data detected,production,0,2026-02-11 13:58:00,DATA_ISSUE
+SearchTest,Verify product search,33.83,FAIL,Service unavailable,production,1,2026-03-08 17:39:00,ENVIRONMENT
+LoginTest,Verify user login functionality,35.39,PASS,,qa,1,2026-01-09 17:32:00,FLAKY
+CheckoutTest,Verify checkout process,31.97,FAIL,Environment service did not respond,production,1,2026-04-10 15:06:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,32.2,FAIL,Test exceeded expected execution time,staging,1,2026-05-01 10:51:00,FLAKY
+CheckoutTest,Verify checkout process,28.44,FAIL,Database connection timeout,qa,0,2026-05-11 20:20:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,7.46,FAIL,Element displayed incorrect value,staging,0,2026-06-01 08:52:00,REAL_BUG
+PasswordResetTest,Verify password reset,20.21,FAIL,Assertion failed: expected value does not match actual value,staging,0,2026-06-15 17:24:00,DATA_ISSUE
+SearchTest,Verify product search,12.85,FAIL,Database connection timeout,production,0,2026-06-02 01:11:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,6.78,FAIL,Unexpected API response,qa,1,2026-01-19 10:32:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,44.05,FAIL,Database connection timeout,production,0,2026-05-29 00:49:00,ENVIRONMENT
+PaymentTest,Verify payment processing,18.13,PASS,,staging,1,2026-05-15 10:43:00,DATA_ISSUE
+CheckoutTest,Verify checkout process,4.93,PASS,,qa,2,2026-04-28 19:39:00,REAL_BUG
+PaymentTest,Verify payment processing,43.11,PASS,,qa,0,2026-01-17 22:06:00,FLAKY
+ProfileTest,Verify user profile update,19.83,FAIL,Network connection refused,staging,3,2026-05-06 14:13:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,36.47,PASS,,qa,0,2026-05-13 05:44:00,ENVIRONMENT
+LoginTest,Verify user login functionality,7.36,PASS,,staging,3,2026-05-27 01:08:00,DATA_ISSUE
+OrderHistoryTest,Verify order history,18.95,FAIL,Database connection timeout,qa,0,2026-06-10 04:33:00,ENVIRONMENT
+PaymentTest,Verify payment processing,40.28,PASS,,production,1,2026-02-17 15:00:00,FLAKY
+ProfileTest,Verify user profile update,25.04,PASS,,qa,2,2026-04-13 20:34:00,REAL_BUG
+SearchTest,Verify product search,17.21,PASS,,qa,1,2026-04-23 13:07:00,DATA_ISSUE
+CheckoutTest,Verify checkout process,23.24,PASS,,qa,1,2026-03-12 01:33:00,FLAKY
+PaymentTest,Verify payment processing,44.49,PASS,,qa,0,2026-06-20 02:19:00,ENVIRONMENT
+PaymentTest,Verify payment processing,23.83,PASS,,staging,0,2026-02-28 08:52:00,FLAKY
+SearchTest,Verify product search,24.29,FAIL,Intermittent connection timeout,staging,1,2026-05-29 17:58:00,FLAKY
+SearchTest,Verify product search,27.07,FAIL,Incorrect calculation result,staging,0,2026-02-27 12:53:00,REAL_BUG
+CheckoutTest,Verify checkout process,3.75,PASS,,production,1,2026-04-12 10:08:00,DATA_ISSUE
+PasswordResetTest,Verify password reset,28.38,FAIL,Unexpected API response,qa,1,2026-04-13 08:52:00,REAL_BUG
+SearchTest,Verify product search,17.32,FAIL,Service unavailable,staging,2,2026-03-02 10:24:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,33.1,PASS,,staging,0,2026-01-21 18:10:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,17.34,FAIL,Network connection refused,qa,2,2026-04-06 00:35:00,ENVIRONMENT
+ProfileTest,Verify user profile update,9.89,FAIL,Unexpected API response,qa,0,2026-05-12 08:32:00,ENVIRONMENT
+LogoutTest,Verify user logout,10.88,FAIL,Incorrect calculation result,production,3,2026-03-25 04:51:00,REAL_BUG
+SearchTest,Verify product search,20.41,FAIL,Unexpected API response,qa,3,2026-01-23 10:21:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,24.18,PASS,,production,3,2026-04-07 13:11:00,FLAKY
+LoginTest,Verify user login functionality,27.58,FAIL,Element not found after waiting,qa,3,2026-04-16 07:44:00,FLAKY
+PaymentTest,Verify payment processing,19.27,FAIL,Network connection refused,qa,1,2026-06-10 10:51:00,ENVIRONMENT
+LogoutTest,Verify user logout,32.09,PASS,,staging,0,2026-06-25 10:00:00,FLAKY
+ProfileTest,Verify user profile update,8.6,FAIL,Unexpected API response,qa,1,2026-04-04 06:14:00,DATA_ISSUE
+CartTest,Verify shopping cart functionality,16.18,FAIL,Request timed out,qa,2,2026-02-09 13:35:00,ENVIRONMENT
+SearchTest,Verify product search,31.84,PASS,,production,3,2026-06-28 15:31:00,REAL_BUG
+PaymentTest,Verify payment processing,16.54,PASS,,staging,0,2026-04-13 08:38:00,FLAKY
+RegistrationTest,Verify new user registration,32.83,PASS,,qa,1,2026-02-22 01:14:00,FLAKY
+LogoutTest,Verify user logout,4.06,FAIL,Unexpected API response,production,0,2026-02-06 09:23:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,15.04,FAIL,Database connection timeout,qa,0,2026-05-23 18:54:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,18.06,FAIL,Request timed out,qa,1,2026-05-15 14:53:00,REAL_BUG
+PasswordResetTest,Verify password reset,26.57,PASS,,qa,0,2026-02-22 08:42:00,DATA_ISSUE
+LoginTest,Verify user login functionality,43.18,FAIL,Test data validation failed,qa,3,2026-01-10 19:03:00,DATA_ISSUE
+LoginTest,Verify user login functionality,39.49,FAIL,Environment service did not respond,production,2,2026-06-15 22:20:00,ENVIRONMENT
+ProfileTest,Verify user profile update,28.34,FAIL,Service unavailable,staging,2,2026-03-23 16:54:00,ENVIRONMENT
+PaymentTest,Verify payment processing,43.42,FAIL,Invalid test data,staging,2,2026-01-08 09:32:00,DATA_ISSUE
+LogoutTest,Verify user logout,9.76,FAIL,Timeout waiting for element,staging,2,2026-03-26 21:25:00,FLAKY
+PaymentTest,Verify payment processing,28.07,PASS,,qa,2,2026-04-23 01:38:00,REAL_BUG
+CartTest,Verify shopping cart functionality,18.04,PASS,,staging,2,2026-04-06 15:29:00,FLAKY
+SearchTest,Verify product search,36.02,PASS,,qa,0,2026-04-08 18:20:00,DATA_ISSUE
+LogoutTest,Verify user logout,11.96,FAIL,Unexpected API response,staging,0,2026-02-09 18:24:00,REAL_BUG
+OrderHistoryTest,Verify order history,37.59,PASS,,production,3,2026-01-21 21:13:00,FLAKY
+ProfileTest,Verify user profile update,28.78,PASS,,production,1,2026-05-05 06:06:00,FLAKY
+ProfileTest,Verify user profile update,7.76,PASS,,qa,0,2026-02-21 11:41:00,FLAKY
+LoginTest,Verify user login functionality,18.75,PASS,,staging,2,2026-03-30 14:52:00,DATA_ISSUE
+LoginTest,Verify user login functionality,16.45,PASS,,production,0,2026-01-31 11:21:00,FLAKY
+PasswordResetTest,Verify password reset,11.85,PASS,,production,1,2026-06-07 11:01:00,FLAKY
+LogoutTest,Verify user logout,37.81,FAIL,Unexpected API response,staging,2,2026-04-28 16:52:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,22.29,FAIL,Database connection timeout,production,0,2026-01-10 21:06:00,ENVIRONMENT
+PaymentTest,Verify payment processing,27.15,PASS,,staging,0,2026-03-16 04:58:00,ENVIRONMENT
+LogoutTest,Verify user logout,16.29,FAIL,Timeout waiting for element,qa,0,2026-01-02 01:46:00,FLAKY
+OrderHistoryTest,Verify order history,4.91,PASS,,staging,2,2026-06-18 22:42:00,REAL_BUG
+PasswordResetTest,Verify password reset,15.66,PASS,,staging,0,2026-03-11 10:25:00,REAL_BUG
+LogoutTest,Verify user logout,9.57,FAIL,Unexpected API response,staging,0,2026-05-26 01:08:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,15.52,PASS,,qa,2,2026-04-28 22:53:00,FLAKY
+ProfileTest,Verify user profile update,39.74,FAIL,Invalid test data,production,0,2026-04-15 06:14:00,DATA_ISSUE
+OrderHistoryTest,Verify order history,6.58,PASS,,qa,0,2026-06-14 11:39:00,FLAKY
+ProfileTest,Verify user profile update,38.76,PASS,,production,0,2026-02-10 04:38:00,REAL_BUG
+OrderHistoryTest,Verify order history,10.62,FAIL,Database connection timeout,qa,2,2026-03-25 23:17:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,13.53,PASS,,qa,0,2026-03-30 16:34:00,REAL_BUG
+ProfileTest,Verify user profile update,12.85,PASS,,production,0,2026-06-13 20:40:00,FLAKY
+SearchTest,Verify product search,28.89,PASS,,qa,0,2026-01-28 17:49:00,FLAKY
+OrderHistoryTest,Verify order history,43.26,PASS,,staging,0,2026-02-14 19:33:00,FLAKY
+SearchTest,Verify product search,14.62,PASS,,qa,0,2026-05-14 10:24:00,ENVIRONMENT
+ProfileTest,Verify user profile update,18.07,FAIL,Assertion failed: expected value does not match actual value,production,0,2026-02-01 23:57:00,DATA_ISSUE
+OrderHistoryTest,Verify order history,37.71,FAIL,Element displayed incorrect value,staging,2,2026-05-14 12:54:00,REAL_BUG
+CheckoutTest,Verify checkout process,38.68,PASS,,qa,1,2026-04-16 09:15:00,ENVIRONMENT
+LogoutTest,Verify user logout,4.54,FAIL,Request timed out,staging,0,2026-04-30 00:58:00,ENVIRONMENT
+PaymentTest,Verify payment processing,35.43,FAIL,Test exceeded expected execution time,production,2,2026-03-26 14:18:00,FLAKY
+PasswordResetTest,Verify password reset,24.09,FAIL,Unexpected API response,qa,1,2026-01-31 04:34:00,FLAKY
+PasswordResetTest,Verify password reset,26.79,FAIL,Element displayed incorrect value,qa,1,2026-05-14 06:10:00,REAL_BUG
+RegistrationTest,Verify new user registration,34.98,FAIL,Test data validation failed,staging,0,2026-02-12 14:26:00,DATA_ISSUE
+LoginTest,Verify user login functionality,36.24,FAIL,Environment service did not respond,production,0,2026-01-08 06:20:00,ENVIRONMENT
+ProfileTest,Verify user profile update,29.61,PASS,,qa,0,2026-02-17 22:26:00,REAL_BUG
+OrderHistoryTest,Verify order history,30.45,FAIL,Service unavailable,production,0,2026-04-05 01:20:00,FLAKY
+CartTest,Verify shopping cart functionality,24.69,PASS,,staging,0,2026-03-30 15:07:00,FLAKY
+RegistrationTest,Verify new user registration,40.05,FAIL,Required test data not found,production,1,2026-04-04 16:03:00,DATA_ISSUE
+CartTest,Verify shopping cart functionality,18.21,FAIL,Assertion failed: expected value does not match actual value,qa,2,2026-02-11 22:23:00,REAL_BUG
+LogoutTest,Verify user logout,23.22,PASS,,production,1,2026-04-18 13:12:00,ENVIRONMENT
+PaymentTest,Verify payment processing,13.23,FAIL,Request timed out,production,0,2026-01-25 12:37:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,5.35,FAIL,Element displayed incorrect value,qa,0,2026-06-24 10:36:00,REAL_BUG
+LogoutTest,Verify user logout,3.78,PASS,,qa,2,2026-05-30 12:19:00,FLAKY
+CartTest,Verify shopping cart functionality,28.47,FAIL,Duplicate test data detected,production,1,2026-02-09 22:24:00,DATA_ISSUE
+LogoutTest,Verify user logout,37.46,PASS,,qa,0,2026-04-03 23:44:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,41.74,PASS,,production,1,2026-02-11 20:04:00,REAL_BUG
+LogoutTest,Verify user logout,11.5,FAIL,Unexpected API response,qa,2,2026-03-18 10:06:00,FLAKY
+PaymentTest,Verify payment processing,40.87,FAIL,Request timed out,qa,1,2026-05-17 23:12:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,40.88,PASS,,production,1,2026-06-13 06:55:00,REAL_BUG
+LogoutTest,Verify user logout,4.82,FAIL,Element not found after waiting,staging,1,2026-05-24 17:37:00,FLAKY
+LogoutTest,Verify user logout,41.13,PASS,,qa,2,2026-01-18 18:55:00,FLAKY
+LogoutTest,Verify user logout,12.77,FAIL,Unexpected API response,qa,2,2026-06-09 14:39:00,REAL_BUG
+PasswordResetTest,Verify password reset,32.78,FAIL,Unexpected API response,qa,2,2026-01-22 10:48:00,FLAKY
+PasswordResetTest,Verify password reset,31.89,PASS,,staging,0,2026-01-20 09:40:00,REAL_BUG
+PaymentTest,Verify payment processing,13.97,PASS,,qa,1,2026-03-08 13:31:00,FLAKY
+OrderHistoryTest,Verify order history,34.71,PASS,,qa,1,2026-03-29 19:56:00,FLAKY
+PaymentTest,Verify payment processing,13.66,PASS,,staging,0,2026-05-21 22:30:00,FLAKY
+LogoutTest,Verify user logout,30.69,PASS,,staging,2,2026-05-23 13:27:00,ENVIRONMENT
+PaymentTest,Verify payment processing,36.02,FAIL,Request timed out,qa,2,2026-05-05 14:54:00,REAL_BUG
+LoginTest,Verify user login functionality,3.22,PASS,,production,0,2026-03-27 20:45:00,REAL_BUG
+OrderHistoryTest,Verify order history,12.31,FAIL,Timeout waiting for element,qa,0,2026-03-11 23:08:00,FLAKY
+LogoutTest,Verify user logout,32.89,FAIL,Service unavailable,qa,1,2026-03-31 23:55:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,42.09,PASS,,production,1,2026-01-07 02:50:00,REAL_BUG
+OrderHistoryTest,Verify order history,28.84,PASS,,staging,1,2026-02-13 13:19:00,FLAKY
+LoginTest,Verify user login functionality,14.59,FAIL,Unexpected API response,staging,0,2026-03-15 19:26:00,DATA_ISSUE
+OrderHistoryTest,Verify order history,32.55,FAIL,Request timed out,staging,3,2026-05-13 04:32:00,REAL_BUG
+PasswordResetTest,Verify password reset,43.46,FAIL,Assertion failed: expected value does not match actual value,production,0,2026-03-24 18:52:00,DATA_ISSUE
+LogoutTest,Verify user logout,20.1,FAIL,Timeout waiting for element,qa,0,2026-02-23 13:36:00,FLAKY
+ProfileTest,Verify user profile update,43.18,PASS,,qa,2,2026-02-15 12:53:00,DATA_ISSUE
+RegistrationTest,Verify new user registration,35.34,PASS,,staging,2,2026-05-05 01:55:00,DATA_ISSUE
+RegistrationTest,Verify new user registration,23.24,PASS,,staging,0,2026-04-26 08:30:00,DATA_ISSUE
+SearchTest,Verify product search,16.26,FAIL,Request timed out,qa,3,2026-01-02 18:28:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,31.3,FAIL,Assertion failed: expected value does not match actual value,qa,2,2026-06-19 13:19:00,REAL_BUG
+PaymentTest,Verify payment processing,40.56,FAIL,Service unavailable,qa,0,2026-06-19 08:20:00,FLAKY
+SearchTest,Verify product search,33.89,FAIL,Element not found after waiting,production,2,2026-02-06 21:54:00,FLAKY
+SearchTest,Verify product search,35.72,FAIL,Database connection timeout,qa,0,2026-06-23 23:51:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,25.74,PASS,,staging,0,2026-03-09 13:46:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,40.0,PASS,,staging,1,2026-03-31 08:21:00,FLAKY
+PaymentTest,Verify payment processing,14.77,PASS,,qa,0,2026-01-24 08:18:00,DATA_ISSUE
+LoginTest,Verify user login functionality,42.47,FAIL,Test exceeded expected execution time,staging,0,2026-06-06 15:08:00,FLAKY
+PaymentTest,Verify payment processing,24.76,FAIL,Timeout waiting for element,production,0,2026-05-03 17:12:00,FLAKY
+SearchTest,Verify product search,18.19,FAIL,Element not found after waiting,qa,2,2026-02-17 20:24:00,FLAKY
+SearchTest,Verify product search,17.41,PASS,,staging,0,2026-02-08 07:49:00,FLAKY
+LogoutTest,Verify user logout,38.88,FAIL,Service unavailable,qa,0,2026-01-24 20:57:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,33.27,PASS,,qa,2,2026-03-20 16:23:00,ENVIRONMENT
+LogoutTest,Verify user logout,34.02,PASS,,production,1,2026-02-02 03:36:00,REAL_BUG
+LogoutTest,Verify user logout,38.67,PASS,,qa,1,2026-02-27 11:26:00,FLAKY
+RegistrationTest,Verify new user registration,26.85,PASS,,qa,0,2026-01-30 17:39:00,FLAKY
+LoginTest,Verify user login functionality,38.24,FAIL,Unexpected service response,staging,0,2026-02-17 06:56:00,REAL_BUG
+ProfileTest,Verify user profile update,37.02,PASS,,staging,0,2026-01-23 01:41:00,FLAKY
+ProfileTest,Verify user profile update,11.36,PASS,,qa,1,2026-04-09 00:28:00,DATA_ISSUE
+PaymentTest,Verify payment processing,16.65,FAIL,Unexpected API response,staging,1,2026-06-11 22:51:00,DATA_ISSUE
+CheckoutTest,Verify checkout process,29.53,FAIL,Element not found after waiting,qa,0,2026-05-28 00:58:00,FLAKY
+ProfileTest,Verify user profile update,20.0,PASS,,production,3,2026-01-30 11:47:00,FLAKY
+ProfileTest,Verify user profile update,15.24,FAIL,Unexpected service response,staging,0,2026-02-19 09:06:00,REAL_BUG
+RegistrationTest,Verify new user registration,34.41,PASS,,staging,1,2026-03-17 08:44:00,ENVIRONMENT
+PaymentTest,Verify payment processing,33.57,FAIL,Unexpected service response,qa,1,2026-05-17 11:39:00,REAL_BUG
+CheckoutTest,Verify checkout process,7.01,FAIL,Incorrect calculation result,qa,3,2026-01-10 19:10:00,REAL_BUG
+LoginTest,Verify user login functionality,44.83,FAIL,Request timed out,production,0,2026-01-16 08:21:00,ENVIRONMENT
+LogoutTest,Verify user logout,14.94,FAIL,Element not found after waiting,qa,1,2026-06-02 15:32:00,FLAKY
+PaymentTest,Verify payment processing,39.14,PASS,,staging,0,2026-03-27 01:11:00,REAL_BUG
+PasswordResetTest,Verify password reset,8.67,PASS,,qa,3,2026-02-02 05:29:00,DATA_ISSUE
+OrderHistoryTest,Verify order history,29.71,PASS,,qa,1,2026-04-27 11:16:00,FLAKY
+PasswordResetTest,Verify password reset,25.67,FAIL,Intermittent connection timeout,staging,2,2026-03-08 14:07:00,FLAKY
+LogoutTest,Verify user logout,3.0,FAIL,Element not found after waiting,staging,2,2026-02-22 04:53:00,FLAKY
+RegistrationTest,Verify new user registration,23.66,PASS,,staging,2,2026-01-02 15:54:00,FLAKY
+LogoutTest,Verify user logout,36.46,PASS,,production,1,2026-03-16 22:54:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,33.03,FAIL,Intermittent connection timeout,production,1,2026-02-17 20:58:00,FLAKY
+CheckoutTest,Verify checkout process,35.11,FAIL,Service unavailable,qa,3,2026-02-19 11:47:00,FLAKY
+CartTest,Verify shopping cart functionality,14.29,FAIL,Database connection timeout,production,0,2026-01-25 20:55:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,22.02,FAIL,Incorrect calculation result,production,2,2026-02-28 08:54:00,REAL_BUG
+LoginTest,Verify user login functionality,3.93,PASS,,staging,3,2026-02-19 00:07:00,REAL_BUG
+PaymentTest,Verify payment processing,12.78,PASS,,staging,0,2026-02-09 12:54:00,ENVIRONMENT
+ProfileTest,Verify user profile update,23.93,PASS,,qa,0,2026-05-25 01:47:00,FLAKY
+LoginTest,Verify user login functionality,42.97,PASS,,staging,0,2026-01-13 23:53:00,FLAKY
+PasswordResetTest,Verify password reset,38.34,FAIL,Timeout waiting for element,production,2,2026-06-27 10:05:00,FLAKY
+SearchTest,Verify product search,13.38,PASS,,production,3,2026-03-25 21:25:00,FLAKY
+CheckoutTest,Verify checkout process,22.86,PASS,,staging,1,2026-06-20 10:23:00,FLAKY
+ProfileTest,Verify user profile update,34.28,PASS,,production,1,2026-02-16 02:44:00,REAL_BUG
+RegistrationTest,Verify new user registration,40.28,FAIL,Service unavailable,production,2,2026-02-12 22:57:00,ENVIRONMENT
+LogoutTest,Verify user logout,14.6,FAIL,Element not found after waiting,production,0,2026-06-26 08:54:00,FLAKY
+LoginTest,Verify user login functionality,31.91,PASS,,production,0,2026-02-15 06:41:00,FLAKY
+PaymentTest,Verify payment processing,17.21,PASS,,qa,3,2026-01-11 22:22:00,FLAKY
+LoginTest,Verify user login functionality,25.53,FAIL,Intermittent connection timeout,production,0,2026-02-27 15:51:00,FLAKY
+PasswordResetTest,Verify password reset,36.83,PASS,,production,1,2026-01-04 21:17:00,ENVIRONMENT
+LogoutTest,Verify user logout,40.74,FAIL,Intermittent connection timeout,qa,1,2026-02-23 15:37:00,FLAKY
+PasswordResetTest,Verify password reset,10.84,FAIL,Unexpected API response,staging,0,2026-02-20 02:54:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,5.89,PASS,,staging,0,2026-05-30 04:05:00,DATA_ISSUE
+CartTest,Verify shopping cart functionality,35.59,PASS,,qa,1,2026-02-03 18:36:00,FLAKY
+LoginTest,Verify user login functionality,29.05,FAIL,Database connection timeout,qa,0,2026-06-26 01:36:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,31.7,FAIL,Service unavailable,qa,2,2026-02-21 13:00:00,ENVIRONMENT
+ProfileTest,Verify user profile update,7.04,FAIL,Timeout waiting for element,production,1,2026-02-02 12:29:00,FLAKY
+LoginTest,Verify user login functionality,7.15,FAIL,Incorrect calculation result,qa,1,2026-03-31 04:26:00,REAL_BUG
+PasswordResetTest,Verify password reset,5.06,PASS,,qa,0,2026-01-13 21:39:00,ENVIRONMENT
+LoginTest,Verify user login functionality,23.64,FAIL,Invalid test data,staging,2,2026-05-26 19:42:00,DATA_ISSUE
+LoginTest,Verify user login functionality,40.4,PASS,,qa,2,2026-01-11 14:43:00,FLAKY
+OrderHistoryTest,Verify order history,5.96,FAIL,Element not found after waiting,qa,0,2026-01-18 16:19:00,FLAKY
+CheckoutTest,Verify checkout process,10.96,FAIL,Service unavailable,qa,1,2026-04-24 20:05:00,ENVIRONMENT
+PaymentTest,Verify payment processing,34.34,PASS,,qa,2,2026-03-07 03:57:00,FLAKY
+RegistrationTest,Verify new user registration,7.37,FAIL,Request timed out,staging,2,2026-04-02 21:02:00,ENVIRONMENT
+ProfileTest,Verify user profile update,28.2,FAIL,Network connection refused,qa,3,2026-03-01 02:26:00,ENVIRONMENT
+ProfileTest,Verify user profile update,37.7,PASS,,production,0,2026-04-13 12:25:00,FLAKY
+PasswordResetTest,Verify password reset,41.9,PASS,,staging,0,2026-03-23 11:09:00,REAL_BUG
+LogoutTest,Verify user logout,14.95,FAIL,Element displayed incorrect value,staging,0,2026-01-02 04:41:00,REAL_BUG
+CartTest,Verify shopping cart functionality,16.23,FAIL,Unexpected API response,staging,2,2026-06-17 07:39:00,DATA_ISSUE
+PasswordResetTest,Verify password reset,27.01,PASS,,staging,0,2026-03-06 17:53:00,FLAKY
+PaymentTest,Verify payment processing,27.45,FAIL,Unexpected API response,production,0,2026-04-14 20:29:00,REAL_BUG
+LogoutTest,Verify user logout,6.24,FAIL,Intermittent connection timeout,production,0,2026-03-30 21:18:00,FLAKY
+OrderHistoryTest,Verify order history,29.97,FAIL,Request timed out,staging,0,2026-01-15 06:52:00,ENVIRONMENT
+LoginTest,Verify user login functionality,39.95,FAIL,Invalid test data,production,1,2026-05-17 02:39:00,DATA_ISSUE
+OrderHistoryTest,Verify order history,29.55,PASS,,qa,0,2026-01-08 11:55:00,DATA_ISSUE
+ProfileTest,Verify user profile update,24.1,FAIL,Timeout waiting for element,qa,0,2026-05-14 04:18:00,FLAKY
+LogoutTest,Verify user logout,27.16,PASS,,staging,0,2026-02-22 18:04:00,DATA_ISSUE
+LogoutTest,Verify user logout,22.99,FAIL,Request timed out,staging,2,2026-02-17 19:07:00,REAL_BUG
+CheckoutTest,Verify checkout process,32.31,FAIL,Intermittent connection timeout,qa,2,2026-02-06 01:32:00,FLAKY
+RegistrationTest,Verify new user registration,26.57,PASS,,qa,3,2026-02-14 19:51:00,FLAKY
+SearchTest,Verify product search,16.58,PASS,,production,3,2026-01-21 11:39:00,REAL_BUG
+LogoutTest,Verify user logout,16.47,FAIL,Timeout waiting for element,staging,1,2026-01-31 19:29:00,FLAKY
+ProfileTest,Verify user profile update,21.57,PASS,,production,0,2026-06-18 05:56:00,ENVIRONMENT
+SearchTest,Verify product search,34.82,FAIL,Assertion failed: expected value does not match actual value,qa,2,2026-01-10 22:16:00,REAL_BUG
+SearchTest,Verify product search,39.49,PASS,,production,2,2026-03-04 11:46:00,DATA_ISSUE
+CheckoutTest,Verify checkout process,16.94,PASS,,production,2,2026-02-07 02:25:00,FLAKY
+PasswordResetTest,Verify password reset,23.29,FAIL,Element not found after waiting,qa,2,2026-05-08 04:54:00,FLAKY
+LoginTest,Verify user login functionality,25.13,PASS,,production,0,2026-02-21 16:52:00,FLAKY
+SearchTest,Verify product search,5.23,PASS,,production,1,2026-01-13 02:58:00,ENVIRONMENT
+LogoutTest,Verify user logout,41.34,PASS,,production,0,2026-01-04 11:21:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,12.71,PASS,,qa,0,2026-01-19 03:10:00,DATA_ISSUE
+ProfileTest,Verify user profile update,6.7,PASS,,staging,0,2026-04-13 01:40:00,FLAKY
+LoginTest,Verify user login functionality,15.81,PASS,,qa,1,2026-01-29 13:57:00,REAL_BUG
+LoginTest,Verify user login functionality,29.26,FAIL,Unexpected API response,staging,0,2026-05-28 19:12:00,FLAKY
+LoginTest,Verify user login functionality,40.4,PASS,,production,2,2026-06-21 20:59:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,17.36,FAIL,Required test data not found,production,0,2026-05-13 20:56:00,DATA_ISSUE
+LogoutTest,Verify user logout,39.65,PASS,,staging,1,2026-02-13 18:09:00,FLAKY
+OrderHistoryTest,Verify order history,41.21,PASS,,qa,0,2026-01-24 23:43:00,REAL_BUG
+SearchTest,Verify product search,31.73,PASS,,production,0,2026-02-26 06:02:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,41.18,FAIL,Unexpected API response,qa,2,2026-06-16 22:55:00,DATA_ISSUE
+PaymentTest,Verify payment processing,42.84,PASS,,staging,0,2026-06-02 19:55:00,FLAKY
+PaymentTest,Verify payment processing,39.97,PASS,,staging,1,2026-02-25 05:20:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,29.75,PASS,,production,2,2026-05-22 19:58:00,ENVIRONMENT
+SearchTest,Verify product search,35.02,FAIL,Unexpected API response,qa,1,2026-04-14 05:26:00,REAL_BUG
+OrderHistoryTest,Verify order history,31.87,FAIL,Unexpected service response,staging,0,2026-01-25 09:50:00,REAL_BUG
+PasswordResetTest,Verify password reset,30.28,FAIL,Environment service did not respond,staging,0,2026-03-28 06:16:00,ENVIRONMENT
+PaymentTest,Verify payment processing,20.16,FAIL,Unexpected API response,staging,3,2026-02-10 12:21:00,REAL_BUG
+SearchTest,Verify product search,41.94,FAIL,Request timed out,staging,3,2026-05-06 05:19:00,ENVIRONMENT
+ProfileTest,Verify user profile update,20.96,PASS,,qa,2,2026-05-14 20:42:00,DATA_ISSUE
+LogoutTest,Verify user logout,42.44,FAIL,Request timed out,qa,1,2026-04-27 18:17:00,ENVIRONMENT
+LoginTest,Verify user login functionality,37.73,PASS,,production,0,2026-04-05 10:14:00,FLAKY
+PasswordResetTest,Verify password reset,26.42,PASS,,qa,1,2026-06-25 05:37:00,FLAKY
+LoginTest,Verify user login functionality,40.14,FAIL,Unexpected API response,staging,2,2026-01-31 07:23:00,REAL_BUG
+LogoutTest,Verify user logout,31.98,PASS,,staging,3,2026-06-01 01:51:00,FLAKY
+RegistrationTest,Verify new user registration,10.55,FAIL,Unexpected service response,qa,1,2026-01-25 15:09:00,REAL_BUG
+LogoutTest,Verify user logout,10.51,PASS,,qa,1,2026-06-13 01:47:00,FLAKY
+SearchTest,Verify product search,16.61,FAIL,Unexpected API response,production,1,2026-05-11 18:37:00,DATA_ISSUE
+CheckoutTest,Verify checkout process,29.63,PASS,,qa,0,2026-03-11 22:06:00,REAL_BUG
+PasswordResetTest,Verify password reset,26.11,FAIL,Service unavailable,staging,0,2026-04-13 22:40:00,ENVIRONMENT
+PaymentTest,Verify payment processing,35.3,FAIL,Unexpected API response,staging,0,2026-05-13 22:07:00,REAL_BUG
+RegistrationTest,Verify new user registration,40.74,FAIL,Timeout waiting for element,qa,3,2026-05-20 08:03:00,FLAKY
+CartTest,Verify shopping cart functionality,23.94,FAIL,Request timed out,staging,2,2026-02-13 07:18:00,REAL_BUG
+SearchTest,Verify product search,20.23,PASS,,qa,0,2026-01-02 04:43:00,FLAKY
+SearchTest,Verify product search,29.4,FAIL,Required test data not found,production,2,2026-02-03 15:34:00,DATA_ISSUE
+PaymentTest,Verify payment processing,9.11,FAIL,Request timed out,qa,0,2026-02-24 07:54:00,REAL_BUG
+ProfileTest,Verify user profile update,20.51,FAIL,Unexpected API response,staging,0,2026-04-22 05:53:00,DATA_ISSUE
+OrderHistoryTest,Verify order history,43.58,PASS,,staging,2,2026-06-19 13:41:00,FLAKY
+LoginTest,Verify user login functionality,18.48,FAIL,Assertion failed: expected value does not match actual value,staging,0,2026-06-03 12:28:00,REAL_BUG
+PasswordResetTest,Verify password reset,8.12,FAIL,Unexpected API response,qa,2,2026-03-17 07:44:00,REAL_BUG
+PasswordResetTest,Verify password reset,5.44,FAIL,Unexpected service response,qa,1,2026-06-29 17:05:00,REAL_BUG
+CheckoutTest,Verify checkout process,42.22,PASS,,staging,3,2026-03-19 17:49:00,FLAKY
+OrderHistoryTest,Verify order history,27.16,FAIL,Service unavailable,qa,1,2026-04-13 10:11:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,23.69,PASS,,qa,0,2026-02-12 08:46:00,FLAKY
+CartTest,Verify shopping cart functionality,4.01,FAIL,Invalid test data,qa,1,2026-06-04 09:16:00,DATA_ISSUE
+SearchTest,Verify product search,20.39,PASS,,qa,0,2026-05-27 17:39:00,ENVIRONMENT
+SearchTest,Verify product search,14.83,FAIL,Unexpected API response,staging,2,2026-04-03 05:45:00,REAL_BUG
+PasswordResetTest,Verify password reset,31.81,FAIL,Service unavailable,qa,0,2026-04-23 03:18:00,FLAKY
+LoginTest,Verify user login functionality,38.02,FAIL,Environment service did not respond,staging,3,2026-05-26 03:15:00,ENVIRONMENT
+LoginTest,Verify user login functionality,29.34,FAIL,Request timed out,staging,2,2026-03-26 04:33:00,ENVIRONMENT
+LogoutTest,Verify user logout,24.89,FAIL,Unexpected API response,staging,1,2026-04-12 01:36:00,DATA_ISSUE
+PasswordResetTest,Verify password reset,16.93,FAIL,Unexpected API response,production,3,2026-06-26 12:18:00,REAL_BUG
+PaymentTest,Verify payment processing,44.31,FAIL,Element not found after waiting,qa,1,2026-04-21 06:17:00,FLAKY
+LogoutTest,Verify user logout,35.86,FAIL,Unexpected API response,qa,0,2026-01-06 18:11:00,REAL_BUG
+CartTest,Verify shopping cart functionality,12.98,PASS,,staging,1,2026-02-09 08:19:00,FLAKY
+PasswordResetTest,Verify password reset,35.97,FAIL,Timeout waiting for element,staging,2,2026-04-03 02:43:00,FLAKY
+LoginTest,Verify user login functionality,9.47,PASS,,staging,0,2026-05-14 08:05:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,35.32,FAIL,Unexpected API response,qa,0,2026-01-25 03:51:00,FLAKY
+SearchTest,Verify product search,32.97,FAIL,Database connection timeout,staging,1,2026-06-19 17:26:00,ENVIRONMENT
+LoginTest,Verify user login functionality,6.66,PASS,,production,1,2026-01-19 18:27:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,3.94,PASS,,qa,2,2026-06-12 09:47:00,ENVIRONMENT
+SearchTest,Verify product search,14.62,FAIL,Intermittent connection timeout,qa,0,2026-01-22 10:01:00,FLAKY
+CartTest,Verify shopping cart functionality,3.64,FAIL,Request timed out,production,1,2026-02-07 14:33:00,REAL_BUG
+PasswordResetTest,Verify password reset,8.95,FAIL,Test exceeded expected execution time,qa,2,2026-02-14 13:39:00,FLAKY
+PaymentTest,Verify payment processing,17.23,FAIL,Element displayed incorrect value,production,1,2026-03-27 16:40:00,REAL_BUG
+LoginTest,Verify user login functionality,20.91,FAIL,Request timed out,qa,0,2026-04-25 14:11:00,REAL_BUG
+RegistrationTest,Verify new user registration,37.33,FAIL,Unexpected API response,qa,2,2026-01-15 07:10:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,36.7,FAIL,Timeout waiting for element,staging,1,2026-02-26 12:07:00,FLAKY
+RegistrationTest,Verify new user registration,9.04,PASS,,staging,2,2026-06-16 04:21:00,FLAKY
+ProfileTest,Verify user profile update,30.94,PASS,,staging,2,2026-03-24 12:25:00,FLAKY
+RegistrationTest,Verify new user registration,17.76,FAIL,Element displayed incorrect value,staging,1,2026-05-20 19:11:00,REAL_BUG
+ProfileTest,Verify user profile update,7.32,FAIL,Database connection timeout,staging,2,2026-04-12 05:51:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,19.83,FAIL,Request timed out,production,1,2026-04-10 18:01:00,ENVIRONMENT
+PaymentTest,Verify payment processing,17.31,FAIL,Assertion failed: expected value does not match actual value,staging,2,2026-05-23 18:43:00,DATA_ISSUE
+LogoutTest,Verify user logout,32.15,FAIL,Service unavailable,production,0,2026-05-15 14:20:00,FLAKY
+OrderHistoryTest,Verify order history,28.04,FAIL,Database connection timeout,staging,0,2026-02-02 01:42:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,7.57,FAIL,Duplicate test data detected,staging,2,2026-03-31 23:36:00,DATA_ISSUE
+LoginTest,Verify user login functionality,40.26,PASS,,qa,3,2026-05-28 10:14:00,REAL_BUG
+LoginTest,Verify user login functionality,22.02,PASS,,qa,0,2026-04-16 05:01:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,16.3,PASS,,qa,1,2026-02-25 10:35:00,REAL_BUG
+LogoutTest,Verify user logout,44.59,PASS,,qa,1,2026-06-29 13:44:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,15.36,FAIL,Unexpected API response,production,0,2026-01-01 03:41:00,FLAKY
+PasswordResetTest,Verify password reset,39.17,FAIL,Service unavailable,staging,2,2026-05-08 20:03:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,19.08,FAIL,Unexpected API response,production,0,2026-05-01 14:27:00,FLAKY
+PaymentTest,Verify payment processing,19.15,FAIL,Intermittent connection timeout,production,3,2026-02-22 12:20:00,FLAKY
+PaymentTest,Verify payment processing,3.66,FAIL,Incorrect calculation result,qa,2,2026-03-21 12:07:00,REAL_BUG
+PaymentTest,Verify payment processing,20.47,FAIL,Unexpected service response,qa,1,2026-06-19 08:35:00,REAL_BUG
+LogoutTest,Verify user logout,20.81,FAIL,Environment service did not respond,staging,2,2026-02-11 02:16:00,ENVIRONMENT
+PaymentTest,Verify payment processing,23.92,FAIL,Service unavailable,qa,2,2026-02-19 00:22:00,FLAKY
+LogoutTest,Verify user logout,4.41,PASS,,staging,0,2026-05-09 07:40:00,DATA_ISSUE
+ProfileTest,Verify user profile update,32.0,FAIL,Unexpected service response,qa,0,2026-06-29 01:19:00,REAL_BUG
+CartTest,Verify shopping cart functionality,40.38,FAIL,Intermittent connection timeout,qa,0,2026-05-16 00:28:00,FLAKY
+CheckoutTest,Verify checkout process,27.34,FAIL,Network connection refused,qa,1,2026-05-22 17:26:00,ENVIRONMENT
+LoginTest,Verify user login functionality,22.71,PASS,,staging,2,2026-03-06 05:54:00,FLAKY
+CartTest,Verify shopping cart functionality,41.76,FAIL,Service unavailable,qa,2,2026-02-17 09:53:00,FLAKY
+LoginTest,Verify user login functionality,27.06,PASS,,staging,1,2026-05-28 06:07:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,8.33,FAIL,Unexpected API response,staging,0,2026-01-25 03:04:00,REAL_BUG
+OrderHistoryTest,Verify order history,3.6,PASS,,production,0,2026-06-15 16:25:00,FLAKY
+OrderHistoryTest,Verify order history,18.53,PASS,,qa,0,2026-02-12 23:57:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,4.39,FAIL,Element displayed incorrect value,qa,3,2026-06-20 00:27:00,REAL_BUG
+PaymentTest,Verify payment processing,20.34,PASS,,qa,0,2026-03-22 03:11:00,ENVIRONMENT
+PaymentTest,Verify payment processing,17.49,PASS,,production,1,2026-01-10 13:28:00,REAL_BUG
+PaymentTest,Verify payment processing,23.0,PASS,,qa,3,2026-02-12 12:52:00,FLAKY
+LogoutTest,Verify user logout,14.03,FAIL,Environment service did not respond,production,1,2026-02-22 13:45:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,25.27,FAIL,Timeout waiting for element,qa,3,2026-04-27 00:56:00,FLAKY
+ProfileTest,Verify user profile update,41.56,FAIL,Test data validation failed,staging,2,2026-02-18 14:55:00,DATA_ISSUE
+CheckoutTest,Verify checkout process,22.37,PASS,,production,1,2026-05-14 16:15:00,FLAKY
+OrderHistoryTest,Verify order history,31.46,FAIL,Network connection refused,qa,3,2026-01-02 22:12:00,ENVIRONMENT
+LoginTest,Verify user login functionality,7.1,FAIL,Environment service did not respond,staging,0,2026-02-09 22:38:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,29.01,FAIL,Unexpected API response,qa,0,2026-06-12 17:48:00,FLAKY
+SearchTest,Verify product search,32.74,PASS,,qa,0,2026-01-24 15:34:00,DATA_ISSUE
+LogoutTest,Verify user logout,26.77,PASS,,production,3,2026-05-07 15:21:00,ENVIRONMENT
+PaymentTest,Verify payment processing,42.32,PASS,,staging,1,2026-05-21 01:22:00,FLAKY
+LogoutTest,Verify user logout,35.35,PASS,,production,0,2026-02-20 11:29:00,ENVIRONMENT
+LoginTest,Verify user login functionality,5.52,FAIL,Test exceeded expected execution time,production,3,2026-03-22 04:54:00,FLAKY
+CheckoutTest,Verify checkout process,28.63,PASS,,staging,0,2026-01-20 17:44:00,FLAKY
+PaymentTest,Verify payment processing,28.79,FAIL,Intermittent connection timeout,qa,0,2026-02-17 03:34:00,FLAKY
+CheckoutTest,Verify checkout process,33.56,FAIL,Assertion failed: expected value does not match actual value,staging,2,2026-01-28 02:21:00,REAL_BUG
+LoginTest,Verify user login functionality,14.19,PASS,,staging,2,2026-04-15 14:38:00,DATA_ISSUE
+LoginTest,Verify user login functionality,23.61,PASS,,qa,1,2026-05-23 03:57:00,FLAKY
+CheckoutTest,Verify checkout process,43.07,FAIL,Intermittent connection timeout,production,2,2026-04-14 06:19:00,FLAKY
+PasswordResetTest,Verify password reset,31.64,FAIL,Unexpected API response,qa,1,2026-01-17 12:07:00,DATA_ISSUE
+ProfileTest,Verify user profile update,6.38,PASS,,staging,1,2026-04-28 22:14:00,FLAKY
+SearchTest,Verify product search,19.13,FAIL,Unexpected service response,staging,0,2026-06-13 04:41:00,REAL_BUG
+CheckoutTest,Verify checkout process,6.56,FAIL,Unexpected API response,production,1,2026-01-26 11:25:00,ENVIRONMENT
+LoginTest,Verify user login functionality,27.9,PASS,,production,1,2026-05-25 07:31:00,REAL_BUG
+PasswordResetTest,Verify password reset,43.53,FAIL,Database connection timeout,production,2,2026-03-03 18:21:00,ENVIRONMENT
+LoginTest,Verify user login functionality,20.03,PASS,,qa,0,2026-05-02 11:32:00,FLAKY
+PasswordResetTest,Verify password reset,39.72,PASS,,qa,0,2026-02-12 09:55:00,FLAKY
+CheckoutTest,Verify checkout process,30.46,FAIL,Request timed out,production,1,2026-02-14 04:17:00,REAL_BUG
+PaymentTest,Verify payment processing,41.0,FAIL,Assertion failed: expected value does not match actual value,staging,2,2026-04-22 06:29:00,REAL_BUG
+PaymentTest,Verify payment processing,37.33,FAIL,Request timed out,qa,0,2026-02-10 03:41:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,37.08,FAIL,Unexpected API response,staging,3,2026-03-01 00:36:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,8.77,PASS,,production,2,2026-05-20 02:57:00,DATA_ISSUE
+LoginTest,Verify user login functionality,8.07,FAIL,Intermittent connection timeout,production,0,2026-05-07 18:09:00,FLAKY
+ProfileTest,Verify user profile update,41.88,FAIL,Timeout waiting for element,qa,0,2026-04-22 11:47:00,FLAKY
+LogoutTest,Verify user logout,23.45,FAIL,Service unavailable,production,0,2026-05-09 15:47:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,36.91,FAIL,Unexpected API response,production,2,2026-02-07 12:43:00,DATA_ISSUE
+PaymentTest,Verify payment processing,20.31,FAIL,Request timed out,qa,3,2026-01-07 20:22:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,42.91,FAIL,Unexpected API response,staging,1,2026-03-18 05:42:00,REAL_BUG
+LoginTest,Verify user login functionality,44.44,FAIL,Unexpected API response,staging,3,2026-06-07 01:19:00,FLAKY
+PasswordResetTest,Verify password reset,29.31,PASS,,production,0,2026-02-05 06:22:00,FLAKY
+CheckoutTest,Verify checkout process,43.68,PASS,,production,1,2026-01-30 02:00:00,ENVIRONMENT
+LoginTest,Verify user login functionality,11.8,FAIL,Request timed out,staging,0,2026-01-08 21:15:00,REAL_BUG
+CheckoutTest,Verify checkout process,10.39,PASS,,staging,2,2026-04-04 17:38:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,21.68,FAIL,Incorrect calculation result,production,1,2026-05-17 00:04:00,REAL_BUG
+ProfileTest,Verify user profile update,12.57,FAIL,Incorrect calculation result,production,0,2026-03-10 08:43:00,REAL_BUG
+SearchTest,Verify product search,5.28,FAIL,Element displayed incorrect value,qa,1,2026-03-24 19:53:00,REAL_BUG
+PaymentTest,Verify payment processing,33.23,FAIL,Test exceeded expected execution time,production,1,2026-03-03 03:31:00,FLAKY
+PaymentTest,Verify payment processing,14.79,FAIL,Incorrect calculation result,staging,0,2026-03-18 03:14:00,REAL_BUG
+PaymentTest,Verify payment processing,15.4,FAIL,Unexpected API response,qa,0,2026-06-14 20:31:00,ENVIRONMENT
+PaymentTest,Verify payment processing,12.65,PASS,,qa,1,2026-03-31 01:24:00,FLAKY
+SearchTest,Verify product search,14.73,PASS,,qa,2,2026-06-08 20:26:00,FLAKY
+SearchTest,Verify product search,12.34,FAIL,Element displayed incorrect value,qa,3,2026-06-13 12:31:00,REAL_BUG
+LoginTest,Verify user login functionality,44.63,FAIL,Unexpected API response,production,2,2026-03-19 11:54:00,FLAKY
+PasswordResetTest,Verify password reset,32.26,PASS,,staging,0,2026-02-13 18:48:00,FLAKY
+CheckoutTest,Verify checkout process,33.74,FAIL,Element not found after waiting,staging,3,2026-02-23 20:19:00,FLAKY
+SearchTest,Verify product search,23.15,FAIL,Unexpected API response,staging,0,2026-06-06 04:19:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,22.1,FAIL,Unexpected API response,staging,2,2026-02-03 16:02:00,ENVIRONMENT
+ProfileTest,Verify user profile update,3.06,PASS,,staging,1,2026-06-12 15:28:00,ENVIRONMENT
+ProfileTest,Verify user profile update,34.62,FAIL,Unexpected API response,qa,1,2026-04-15 17:12:00,FLAKY
+SearchTest,Verify product search,40.0,FAIL,Database connection timeout,qa,2,2026-06-22 02:10:00,ENVIRONMENT
+ProfileTest,Verify user profile update,18.35,FAIL,Test data validation failed,staging,1,2026-02-01 21:45:00,DATA_ISSUE
+PasswordResetTest,Verify password reset,35.49,PASS,,staging,0,2026-02-13 10:36:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,42.44,FAIL,Unexpected service response,production,1,2026-05-18 02:39:00,REAL_BUG
+SearchTest,Verify product search,24.15,PASS,,production,1,2026-01-12 12:51:00,FLAKY
+ProfileTest,Verify user profile update,25.12,PASS,,qa,0,2026-04-07 19:55:00,FLAKY
+PasswordResetTest,Verify password reset,18.46,FAIL,Unexpected API response,production,1,2026-02-04 06:55:00,DATA_ISSUE
+RegistrationTest,Verify new user registration,10.51,FAIL,Assertion failed: expected value does not match actual value,production,3,2026-01-30 23:52:00,REAL_BUG
+CartTest,Verify shopping cart functionality,9.32,FAIL,Unexpected service response,production,0,2026-02-23 08:52:00,REAL_BUG
+LogoutTest,Verify user logout,8.55,PASS,,staging,0,2026-05-15 07:06:00,DATA_ISSUE
+LoginTest,Verify user login functionality,39.62,FAIL,Unexpected API response,qa,0,2026-03-03 03:28:00,FLAKY
+LogoutTest,Verify user logout,36.05,PASS,,qa,1,2026-05-07 20:38:00,FLAKY
+PasswordResetTest,Verify password reset,15.77,FAIL,Network connection refused,production,0,2026-05-24 16:21:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,15.1,FAIL,Element displayed incorrect value,staging,2,2026-02-21 18:29:00,REAL_BUG
+RegistrationTest,Verify new user registration,9.75,PASS,,production,1,2026-06-27 04:00:00,DATA_ISSUE
+PaymentTest,Verify payment processing,30.99,PASS,,production,0,2026-01-22 06:49:00,ENVIRONMENT
+LoginTest,Verify user login functionality,21.52,PASS,,production,0,2026-04-13 09:32:00,DATA_ISSUE
+LoginTest,Verify user login functionality,9.21,PASS,,production,1,2026-04-08 03:31:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,42.1,FAIL,Incorrect calculation result,staging,2,2026-01-29 09:48:00,REAL_BUG
+LoginTest,Verify user login functionality,24.31,PASS,,staging,1,2026-03-28 06:32:00,DATA_ISSUE
+CartTest,Verify shopping cart functionality,44.75,PASS,,qa,1,2026-05-13 15:03:00,DATA_ISSUE
+RegistrationTest,Verify new user registration,23.12,FAIL,Service unavailable,qa,0,2026-01-22 06:38:00,FLAKY
+CartTest,Verify shopping cart functionality,12.26,FAIL,Unexpected API response,production,0,2026-04-21 17:03:00,REAL_BUG
+SearchTest,Verify product search,42.3,FAIL,Timeout waiting for element,production,0,2026-04-09 00:21:00,FLAKY
+RegistrationTest,Verify new user registration,43.99,PASS,,staging,0,2026-02-27 20:18:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,41.15,PASS,,production,0,2026-05-11 08:05:00,ENVIRONMENT
+LogoutTest,Verify user logout,14.96,FAIL,Intermittent connection timeout,qa,0,2026-01-16 22:43:00,FLAKY
+SearchTest,Verify product search,44.69,FAIL,Network connection refused,production,2,2026-05-27 16:02:00,ENVIRONMENT
+LogoutTest,Verify user logout,38.09,FAIL,Service unavailable,production,1,2026-02-25 04:50:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,17.09,PASS,,qa,3,2026-05-18 15:30:00,DATA_ISSUE
+LogoutTest,Verify user logout,41.41,FAIL,Request timed out,staging,1,2026-05-10 07:06:00,REAL_BUG
+OrderHistoryTest,Verify order history,10.81,FAIL,Request timed out,staging,0,2026-01-08 16:31:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,26.49,FAIL,Database connection timeout,production,1,2026-01-29 00:56:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,29.74,PASS,,qa,0,2026-06-12 12:12:00,FLAKY
+CartTest,Verify shopping cart functionality,31.89,PASS,,production,0,2026-05-20 05:06:00,FLAKY
+CartTest,Verify shopping cart functionality,28.15,PASS,,staging,0,2026-04-13 23:01:00,FLAKY
+LogoutTest,Verify user logout,22.99,PASS,,production,1,2026-03-09 22:32:00,DATA_ISSUE
+PasswordResetTest,Verify password reset,13.9,FAIL,Service unavailable,staging,1,2026-03-25 22:19:00,ENVIRONMENT
+PaymentTest,Verify payment processing,18.17,FAIL,Test exceeded expected execution time,production,1,2026-02-22 18:24:00,FLAKY
+CartTest,Verify shopping cart functionality,24.58,PASS,,production,2,2026-05-20 04:58:00,FLAKY
+CheckoutTest,Verify checkout process,16.55,FAIL,Service unavailable,staging,0,2026-02-19 10:01:00,FLAKY
+ProfileTest,Verify user profile update,37.58,FAIL,Request timed out,staging,0,2026-03-09 21:43:00,REAL_BUG
+RegistrationTest,Verify new user registration,9.85,PASS,,qa,0,2026-02-10 06:03:00,FLAKY
+SearchTest,Verify product search,31.97,PASS,,qa,3,2026-05-10 17:09:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,20.53,PASS,,production,3,2026-05-30 01:35:00,ENVIRONMENT
+PaymentTest,Verify payment processing,16.09,FAIL,Duplicate test data detected,qa,0,2026-04-06 05:33:00,DATA_ISSUE
+ProfileTest,Verify user profile update,34.27,FAIL,Element displayed incorrect value,qa,0,2026-01-26 21:58:00,REAL_BUG
+SearchTest,Verify product search,44.21,FAIL,Timeout waiting for element,production,1,2026-01-04 10:09:00,FLAKY
+RegistrationTest,Verify new user registration,7.53,FAIL,Request timed out,qa,2,2026-01-11 18:56:00,ENVIRONMENT
+RegistrationTest,Verify new user registration,5.78,FAIL,Assertion failed: expected value does not match actual value,production,1,2026-06-17 11:58:00,REAL_BUG
+OrderHistoryTest,Verify order history,10.76,PASS,,production,0,2026-01-27 11:56:00,REAL_BUG
+CartTest,Verify shopping cart functionality,9.74,FAIL,Unexpected API response,qa,1,2026-02-14 00:32:00,DATA_ISSUE
+PasswordResetTest,Verify password reset,27.28,FAIL,Element not found after waiting,qa,0,2026-02-04 20:53:00,FLAKY
+CartTest,Verify shopping cart functionality,3.18,PASS,,production,2,2026-06-17 13:37:00,REAL_BUG
+PasswordResetTest,Verify password reset,32.32,FAIL,Unexpected API response,production,0,2026-02-02 22:08:00,DATA_ISSUE
+ProfileTest,Verify user profile update,24.6,FAIL,Test data validation failed,production,1,2026-03-26 19:33:00,DATA_ISSUE
+CheckoutTest,Verify checkout process,18.17,PASS,,qa,0,2026-01-08 09:25:00,FLAKY
+CheckoutTest,Verify checkout process,14.91,FAIL,Test exceeded expected execution time,qa,1,2026-06-27 16:59:00,FLAKY
+RegistrationTest,Verify new user registration,44.37,FAIL,Assertion failed: expected value does not match actual value,staging,1,2026-06-20 22:54:00,REAL_BUG
+ProfileTest,Verify user profile update,23.65,PASS,,staging,0,2026-04-06 03:32:00,REAL_BUG
+CheckoutTest,Verify checkout process,32.19,FAIL,Unexpected service response,production,3,2026-01-12 18:43:00,REAL_BUG
+ProfileTest,Verify user profile update,27.99,FAIL,Invalid test data,production,3,2026-06-02 13:45:00,DATA_ISSUE
+LogoutTest,Verify user logout,32.97,FAIL,Network connection refused,qa,1,2026-06-21 17:00:00,ENVIRONMENT
+LogoutTest,Verify user logout,42.91,PASS,,qa,3,2026-02-20 18:29:00,FLAKY
+PaymentTest,Verify payment processing,13.53,FAIL,Unexpected API response,production,1,2026-01-06 09:51:00,ENVIRONMENT
+CheckoutTest,Verify checkout process,23.92,PASS,,production,0,2026-03-11 15:44:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,29.12,FAIL,Database connection timeout,qa,0,2026-05-17 19:49:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,11.48,PASS,,staging,1,2026-04-02 21:28:00,ENVIRONMENT
+CartTest,Verify shopping cart functionality,25.7,PASS,,production,0,2026-03-20 08:28:00,FLAKY
+CheckoutTest,Verify checkout process,18.81,FAIL,Timeout waiting for element,production,1,2026-04-12 08:06:00,FLAKY
+CartTest,Verify shopping cart functionality,21.09,FAIL,Duplicate test data detected,staging,0,2026-05-20 02:00:00,DATA_ISSUE
+CheckoutTest,Verify checkout process,26.26,PASS,,staging,1,2026-03-28 15:17:00,FLAKY
+PasswordResetTest,Verify password reset,19.44,PASS,,staging,1,2026-04-23 07:27:00,DATA_ISSUE
+ProfileTest,Verify user profile update,5.58,FAIL,Service unavailable,staging,1,2026-03-05 12:15:00,ENVIRONMENT
+OrderHistoryTest,Verify order history,17.33,PASS,,staging,0,2026-03-07 01:21:00,REAL_BUG
+LogoutTest,Verify user logout,13.4,PASS,,qa,1,2026-01-16 11:06:00,FLAKY
+CheckoutTest,Verify checkout process,10.13,FAIL,Invalid test data,staging,1,2026-04-30 17:49:00,DATA_ISSUE
+LogoutTest,Verify user logout,14.2,PASS,,qa,1,2026-01-05 01:09:00,FLAKY
+ProfileTest,Verify user profile update,27.05,FAIL,Timeout waiting for element,qa,2,2026-05-03 21:36:00,FLAKY
+SearchTest,Verify product search,35.13,PASS,,qa,0,2026-02-24 12:37:00,FLAKY
+ProfileTest,Verify user profile update,29.69,FAIL,Invalid test data,qa,3,2026-02-08 23:19:00,DATA_ISSUE
+CartTest,Verify shopping cart functionality,27.09,FAIL,Unexpected API response,qa,2,2026-06-24 09:18:00,FLAKY
+CheckoutTest,Verify checkout process,27.86,PASS,,qa,0,2026-05-26 20:26:00,ENVIRONMENT
+PasswordResetTest,Verify password reset,36.42,FAIL,Test exceeded expected execution time,qa,1,2026-05-27 09:16:00,FLAKY
+CartTest,Verify shopping cart functionality,11.4,PASS,,qa,1,2026-04-04 19:40:00,FLAKY
+RegistrationTest,Verify new user registration,40.0,FAIL,Request timed out,production,1,2026-04-16 00:16:00,ENVIRONMENT

@@ -1,0 +1,12 @@
+streamlit
+mysql-connector-python
+pandas
+scikit-learn
+matplotlib
+joblib
+mlflow
+fastapi
+uvicorn[standard]
+pydantic
+pytest
+httpx
