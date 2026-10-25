@@ -7,7 +7,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
 from src.predict import predict_failure
-from src.database import save_prediction
+from src.database import save_prediction, get_monitoring_summary
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -41,6 +41,18 @@ def home():
 @app.get("/health")
 def health():
     return {"status": "healthy"}
+
+
+@app.get("/monitoring/summary")
+def monitoring_summary():
+    try:
+        return get_monitoring_summary()
+    except Exception as error:
+        logger.exception("Failed to retrieve monitoring summary")
+        raise HTTPException(
+            status_code=500,
+            detail="Failed to retrieve monitoring summary.",
+        ) from error
 
 
 @app.post("/predict")

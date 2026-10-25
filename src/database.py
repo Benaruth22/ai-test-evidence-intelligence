@@ -1,3 +1,4 @@
+
 from datetime import datetime
 import os
 
@@ -94,6 +95,53 @@ def save_prediction(evidence: dict, prediction: dict) -> int:
         cursor.execute(query, values)
         connection.commit()
         return cursor.lastrowid
+    finally:
+        cursor.close()
+        connection.close()
+
+
+def get_monitoring_summary() -> dict:
+    """Summarize stored predictions for basic model monitoring."""
+    connection = get_connection()
+    cursor = connection.cursor(dictionary=True)
+
+    try:
+        cursor.execute("""
+            SELECT
+                COUNT(*) AS total_predictions,
+                ROUND(AVG(prediction_confidence), 4) AS average_confidence,
+                MIN(timestamp) AS first_prediction,
+                MAX(timestamp) AS latest_prediction
+            FROM test_executions
+            WHERE predicted_category IS NOT NULL
+        """)
+        overall = cursor.fetchone()
+
+        cursor.execute("""
+            SELECT
+                predicted_category AS category,
+                COUNT(*) AS count,
+                ROUND(AVG(prediction_confidence), 4) AS average_confidence
+            FROM test_executions
+            WHERE predicted_category IS NOT NULL
+            GROUP BY predicted_category
+            ORDER BY count DESC
+        """)
+        categories = cursor.fetchall()
+
+        return {
+            "total_predictions": overall["total_predictions"],
+            "average_confidence": overall["average_confidence"],
+            "first_prediction": (
+                overall["first_prediction"].isoformat()
+                if overall["first_prediction"] else None
+            ),
+            "latest_prediction": (
+                overall["latest_prediction"].isoformat()
+                if overall["latest_prediction"] else None
+            ),
+            "categories": categories,
+        }
     finally:
         cursor.close()
         connection.close()

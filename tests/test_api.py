@@ -18,6 +18,53 @@ def test_health_endpoint():
     assert response.json()["status"] == "healthy"
 
 
+def test_monitoring_summary_endpoint(monkeypatch):
+    def mock_get_monitoring_summary():
+        return {
+            "total_predictions": 2,
+            "average_confidence": 0.89,
+            "first_prediction": "2026-10-25T16:56:17",
+            "latest_prediction": "2026-10-25T17:20:10",
+            "categories": [
+                {
+                    "category": "FLAKY",
+                    "count": 2,
+                    "average_confidence": 0.89,
+                }
+            ],
+        }
+
+    monkeypatch.setattr(
+        "src.api.get_monitoring_summary",
+        mock_get_monitoring_summary,
+    )
+
+    response = client.get("/monitoring/summary")
+
+    assert response.status_code == 200
+    result = response.json()
+    assert result["total_predictions"] == 2
+    assert result["average_confidence"] == 0.89
+    assert result["categories"][0]["category"] == "FLAKY"
+
+
+def test_monitoring_summary_database_error_returns_server_error(monkeypatch):
+    def mock_get_monitoring_summary():
+        raise RuntimeError("Database unavailable")
+
+    monkeypatch.setattr(
+        "src.api.get_monitoring_summary",
+        mock_get_monitoring_summary,
+    )
+
+    response = client.get("/monitoring/summary")
+
+    assert response.status_code == 500
+    assert response.json()["detail"] == (
+        "Failed to retrieve monitoring summary."
+    )
+
+
 def test_successful_prediction(monkeypatch):
     def mock_predict_failure(data):
         return {
