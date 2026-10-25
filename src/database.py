@@ -1,21 +1,24 @@
 from datetime import datetime
+import os
 
-import pandas as pd
 import mysql.connector
+import pandas as pd
 
 
 def get_connection():
+    """Connect to MySQL using environment-based configuration."""
     return mysql.connector.connect(
-        host="localhost",
-        user="root",
-        database="ai_test_intelligence",
+        host=os.getenv("DB_HOST", "localhost"),
+        port=int(os.getenv("DB_PORT", "3306")),
+        user=os.getenv("DB_USER", "root"),
+        password=os.getenv("DB_PASSWORD", ""),
+        database=os.getenv("DB_NAME", "ai_test_intelligence"),
     )
 
 
 def import_csv_to_mysql():
-    """Import the dataset into MySQL. Run only when the table is empty."""
+    """Import the dataset into MySQL only when the table is empty."""
     df = pd.read_csv("data/raw/test_executions.csv")
-
     connection = get_connection()
     cursor = connection.cursor()
 
@@ -35,13 +38,11 @@ def import_csv_to_mysql():
         """
 
         rows = []
-
         for _, row in df.iterrows():
             error_message = (
                 None if pd.isna(row["error_message"])
                 else str(row["error_message"])
             )
-
             rows.append((
                 row["test_name"],
                 float(row["execution_time"]),
@@ -63,23 +64,16 @@ def import_csv_to_mysql():
 
 
 def save_prediction(evidence: dict, prediction: dict) -> int:
-    """Save a new test execution and its model prediction."""
+    """Save a test execution and its model prediction."""
     timestamp = datetime.fromisoformat(evidence["timestamp"])
-
     connection = get_connection()
     cursor = connection.cursor()
 
     query = """
         INSERT INTO test_executions (
-            test_name,
-            execution_time,
-            status,
-            error_message,
-            environment,
-            retry_count,
-            timestamp,
-            predicted_category,
-            prediction_confidence
+            test_name, execution_time, status, error_message,
+            environment, retry_count, timestamp,
+            predicted_category, prediction_confidence
         )
         VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
     """
