@@ -1,179 +1,113 @@
 
 # AI Test Evidence Intelligence
 
-An ML-powered application that analyzes failed software test executions, predicts likely failure categories, and stores results for review in an interactive dashboard.
+What if we could use AI to help us understand why software tests fail?
 
-**Project status:** Local end-to-end workflow verified. Docker Compose, MySQL, FastAPI, Streamlit, MLflow experiment tracking, automated tests, GitHub Actions CI, and a basic prediction-monitoring endpoint are implemented. The model currently uses synthetic data; real-world accuracy has not been established. No live AWS deployment is claimed.
+That's the idea behind **AI Test Evidence Intelligence**, a project I built to explore how machine learning can help analyze failed software tests and identify their possible causes.
 
-## Problem
+A failed test doesn't always mean there's a bug in the application. Sometimes the test itself is unreliable, the environment has a problem, or the test data isn't correct. I wanted to build a tool that could help categorize these failures and make them easier to investigate.
 
-Software test failures can result from product defects, flaky tests, environment problems, or test-data issues. This project explores how execution metadata and error-message indicators can help categorize failed test runs for investigation.
+This project brings together machine learning, backend development, databases, experiment tracking, testing, and containerization in one application.
 
-## Features
+## What can it do?
 
-- **Machine learning:** Scikit-learn Random Forest classifier for `REAL_BUG`, `FLAKY`, `ENVIRONMENT`, and `DATA_ISSUE`.
-- **Feature engineering:** Execution time, retry count, error-message indicators, environment indicators, and timestamp-derived features.
-- **REST API:** FastAPI endpoints for health checks, predictions, and monitoring summaries.
-- **Database persistence:** MySQL stores execution records and prediction results.
-- **Interactive dashboard:** Streamlit interface for exploring test records and prediction confidence.
-- **Experiment tracking:** MLflow tracks training experiments and registered model versions.
-- **Prediction monitoring:** Summarizes prediction volume, average confidence, category distribution, and first/latest prediction timestamps.
-- **Containerization:** Docker and Docker Compose run the API, dashboard, and MySQL database.
-- **Automated testing:** Pytest tests for API behavior, monitoring, and feature engineering.
-- **Continuous integration:** GitHub Actions runs automated tests.
+- **Predict failure categories:** Uses a Random Forest model to classify failed tests into `REAL_BUG`, `FLAKY`, `ENVIRONMENT`, or `DATA_ISSUE`.
+- **Analyze test information:** Uses features such as execution time, retry count, environment, error messages, and timestamps.
+- **Provide predictions through an API:** FastAPI accepts test information and returns a predicted category with a confidence score.
+- **Store test results:** MySQL keeps track of test executions and their predictions.
+- **Explore results visually:** A Streamlit dashboard lets users review test records and prediction information.
+- **Monitor predictions:** A monitoring endpoint summarizes prediction counts, confidence, and category distribution.
+- **Track ML experiments:** MLflow records training experiments and registered model versions.
+- **Run in containers:** Docker Compose brings up the API, dashboard, and MySQL database.
+- **Test automatically:** Pytest and GitHub Actions help check that the application continues to work as the code changes.
 
-## Architecture
+## How it works
 
 ```mermaid
 flowchart TD
-    A[Test execution evidence] --> B[FastAPI]
-    B --> C[Input validation]
-    C --> D[Feature engineering]
-    D --> E[Random Forest classifier]
-    E --> F[Category and confidence]
-    F --> G[MySQL persistence]
-    G --> H[Streamlit dashboard]
-    G --> I[Monitoring summary endpoint]
+    A[Test execution details] --> B[FastAPI]
+    B --> C[Validate and prepare data]
+    C --> D[Random Forest model]
+    D --> E[Predicted category and confidence]
+    E --> F[Save results in MySQL]
+    F --> G[Streamlit dashboard]
+    F --> H[Monitoring endpoint]
 
-    J[Training dataset] --> K[Training and evaluation]
-    K --> E
-    K --> L[MLflow experiment tracking]
-    M[GitHub push] --> N[GitHub Actions]
-    N --> O[Automated tests]
+    I[Training data] --> J[Train and evaluate model]
+    J --> D
+    J --> K[MLflow tracking]
 ```
 
-## Technology stack
+The API receives the test details, prepares the input features, and passes them to the trained model. The prediction is then saved in MySQL so it can be reviewed later.
 
-| Area | Technologies |
+The dashboard helps explore the results, while the monitoring endpoint provides a simple overview of prediction activity.
+
+## Built with
+
+| Technology | Why I used it |
 |---|---|
-| Language and data processing | Python, Pandas |
-| Machine learning | Scikit-learn, Joblib |
-| API | FastAPI, Uvicorn |
-| Dashboard | Streamlit |
-| Database | MySQL |
-| Experiment tracking | MLflow |
-| Containerization | Docker, Docker Compose |
-| Testing | Pytest |
-| Continuous integration | GitHub Actions |
+| Python | Core application and ML logic |
+| Pandas | Data processing and feature engineering |
+| Scikit-learn | Training and evaluating the classifier |
+| FastAPI | Building the prediction API |
+| Streamlit | Creating the dashboard |
+| MySQL | Storing test records and predictions |
+| MLflow | Tracking experiments and model versions |
+| Pytest | Testing API behavior and feature engineering |
+| Docker Compose | Running the application and database together |
+| GitHub Actions | Automating tests when code is pushed |
 
-## Repository structure
+## Getting started
 
-```text
-test-flakiness-predictor/
-├── .github/
-│   └── workflows/
-│       └── tests.yml
-├── docker/
-│   └── mysql/
-│       └── init.sql
-├── data/
-│   ├── raw/
-│   │   └── test_executions.csv
-│   └── processed/
-├── models/
-│   └── flaky_test_classifier.joblib
-├── src/
-│   ├── api.py
-│   ├── database.py
-│   ├── explore_data.py
-│   ├── features.py
-│   ├── generate_data.py
-│   ├── monitoring.py
-│   ├── predict.py
-│   └── train.py
-├── tests/
-│   ├── test_api.py
-│   └── test_features.py
-├── dashboard.py
-├── Dockerfile
-├── docker-compose.yml
-├── .dockerignore
-├── requirements.txt
-└── README.md
-```
+You'll need Git and Docker Desktop installed and running.
 
-## Dataset and limitations
-
-The current dataset contains 1,000 synthetically generated records. It is intended for development and demonstration, not as evidence of performance on real production test logs.
-
-Synthetic data may contain patterns that make classification easier than it would be on real-world data. Predictions are decision-support signals, not proof of the underlying root cause. Confidence scores are not guarantees of correctness.
-
-Any evaluation metrics reported from a particular training run should be interpreted in the context of the dataset, train/test split, and evaluation procedure. They should not be treated as production performance.
-
-## Quick start with Docker
-
-### Prerequisites
-
-- Docker Desktop installed and running
-- Git
-
-### 1. Clone the repository
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/Benaruth22/ai-test-evidence-intelligence.git
 cd ai-test-evidence-intelligence
 ```
 
-### 2. Start the application
+**2. Start the application**
 
 ```bash
 docker compose up -d --build
 ```
 
-This starts the API, Streamlit dashboard, and MySQL database.
+Docker Compose starts the API, dashboard, and MySQL database.
 
-### 3. Open the services
+**3. Open the application**
 
-| Service | Local URL |
-|---|---|
-| FastAPI | http://localhost:8000 |
-| Interactive API documentation | http://localhost:8000/docs |
-| Health check | http://localhost:8000/health |
-| Prediction monitoring | http://localhost:8000/monitoring/summary |
-| Streamlit dashboard | http://localhost:8502 |
+- API documentation: http://localhost:8000/docs
+- Health check: http://localhost:8000/health
+- Prediction monitoring: http://localhost:8000/monitoring/summary
+- Streamlit dashboard: http://localhost:8502
 
-The dashboard uses port `8502` in the current Docker Compose configuration.
-
-### 4. Check container status
+**4. Check that everything is running**
 
 ```bash
 docker compose ps
 ```
 
-### 5. View application logs
+**5. Run the tests**
 
 ```bash
-docker compose logs -f api
+docker compose exec api pytest -v
 ```
 
-To view logs for all services:
+The current test suite has **10 passing tests** in the Docker environment.
 
-```bash
-docker compose logs -f
-```
-
-### 6. Stop the application
+When you're finished, stop the containers with:
 
 ```bash
 docker compose down
 ```
 
-The Compose configuration uses a persistent MySQL volume. To remove the containers and database volume, use `docker compose down -v` only if you intentionally want to delete the persisted database data.
+## A look at the API
 
-## API usage
+The `/predict` endpoint accepts information about a failed test.
 
-### Available endpoints
-
-| Method | Endpoint | Purpose |
-|---|---|---|
-| `GET` | `/` | API status |
-| `GET` | `/health` | Health check |
-| `POST` | `/predict` | Predict a failed test's category and save the result |
-| `GET` | `/monitoring/summary` | Summarize stored prediction activity |
-
-### Example prediction request
-
-Send a `POST` request to `/predict`:
+For example:
 
 ```json
 {
@@ -186,123 +120,67 @@ Send a `POST` request to `/predict`:
 }
 ```
 
-A successful response includes a predicted category, confidence score, database record ID, and save confirmation. Exact response fields and predictions depend on the implementation and model.
+The model returns a predicted failure category and confidence score. The result is also saved to MySQL when persistence succeeds.
 
-Example response shape:
-
-```json
-{
-  "test_name": "CheckoutIntegrationTest",
-  "predicted_category": "FLAKY",
-  "confidence": 0.89,
-  "database_record_id": 1002,
-  "saved_to_database": true
-}
-```
-
-This is an illustrative response, not a guaranteed result for every input.
+You can try the endpoint interactively through the FastAPI documentation at `/docs`.
 
 ### Prediction monitoring
 
-Use:
+The `/monitoring/summary` endpoint provides a quick overview of stored predictions, including:
 
-```bash
-curl http://localhost:8000/monitoring/summary
-```
-
-The response summarizes:
-
-- Total stored predictions
+- Total number of predictions
 - Average prediction confidence
-- First and latest prediction timestamps
-- Prediction counts and average confidence by category
+- Number of predictions in each category
+- First and most recent prediction timestamps
 
-**Monitoring limitation:** This endpoint measures prediction activity and confidence distribution. It does not independently measure model accuracy, confirm root causes, or establish that model drift has occurred.
+This is a starting point for operational monitoring. It doesn't yet tell us whether predictions were correct or whether the model has drifted.
 
-## Automated tests
+## Machine learning and data
 
-Run the tests inside the Docker API container:
+The model uses a Random Forest classifier to predict one of four failure categories.
 
-```bash
-docker compose exec api pytest -v
-```
+The current dataset contains **1,000 synthetically generated records**. This made it possible to build and test the complete workflow without depending on a real-world labelled dataset.
 
-The current verified test suite contains **10 passing tests**.
+There is an important limitation: synthetic data cannot fully represent the complexity of real software testing. A model that performs well on generated examples may behave very differently on actual test logs.
 
-GitHub Actions is configured to run automated tests when changes are pushed to the repository. See the [GitHub Actions workflow](https://github.com/Benaruth22/ai-test-evidence-intelligence/actions).
+For that reason, the predictions should be treated as suggestions for investigation, not confirmed root causes. The confidence score is also not a guarantee that a prediction is correct.
 
-## MLflow experiment tracking
+My next step is to evaluate the model more thoroughly and test it against realistic, labelled data.
 
-The training workflow uses MLflow to track experiments, metrics, parameters, and registered model versions.
+## Experiment tracking with MLflow
 
-For local MLflow usage, follow the tracking configuration in `src/train.py`. If your local setup uses SQLite tracking, start the UI with:
+I integrated MLflow to keep track of training experiments, evaluation metrics, and registered model versions.
+
+This makes it easier to compare experiments and understand how model changes affect results, rather than treating training as a one-time script.
+
+The local MLflow interface can be started with:
 
 ```bash
 python -m mlflow ui --backend-store-uri sqlite:///mlflow.db --host 127.0.0.1 --port 5002
 ```
 
-Then open http://127.0.0.1:5002.
+Then visit http://127.0.0.1:5002 from your browser, using the project environment and tracking database configured for your setup.
 
-Run this from the project environment where MLflow and its tracking database are configured. The tracking database and model registry are local development artifacts unless separately configured for shared storage.
+## What I learned and what comes next
 
-## Local development
+Building this project gave me practical experience connecting an ML model to a working application rather than stopping at model training.
 
-If you want to run the application without Docker, create a virtual environment and install the dependencies:
+I also worked on API validation, database persistence, automated tests, experiment tracking, Docker, and CI.
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-```
+There is still more to do. My next goals are to:
 
-Then start the API:
+- Test the model with realistic software test logs.
+- Improve evaluation with cross-validation and per-class metrics.
+- Track confirmed outcomes to measure actual prediction accuracy.
+- Add more meaningful model-drift monitoring.
+- Improve logging and configuration.
+- Explore deployment on AWS.
 
-```bash
-uvicorn src.api:app --reload
-```
+## About this project
 
-In another terminal, start the dashboard:
+I built **AI Test Evidence Intelligence** as part of my journey toward becoming an AI Engineer, with a focus on practical AI applications and software quality.
 
-```bash
-streamlit run dashboard.py
-```
+The goal is to explore how machine learning can support testing teams by making failed test executions easier to organize and investigate.
 
-Local development also requires a correctly configured MySQL instance and a compatible trained model artifact. Follow the configuration in the project files before running the application.
-
-## Screenshots and demo
-
-The application has been verified locally. No public hosted demo is currently documented.
-
-Recommended screenshots to add:
-
-```text
-docs/
-├── dashboard.png
-├── swagger-prediction.png
-└── mlflow-experiment.png
-```
-
-Once captured, embed the screenshots in this section to make the repository easier to explore.
-
-## Roadmap
-
-- Evaluate the model with cross-validation and per-class metrics.
-- Validate against realistic, labelled test-execution data.
-- Add confirmed-outcome tracking to measure prediction correctness.
-- Develop model-drift checks using suitable reference data and statistical methods.
-- Improve configuration, secret management, and structured logging.
-- Expand CI to include additional quality checks.
-- Explore an AWS deployment and document it after it is verified.
-
-## Resume summary
-
-**AI Test Evidence Intelligence** — Built a containerized machine-learning application to classify failed software test executions using Scikit-learn, expose predictions through FastAPI, store execution and prediction data in MySQL, and present results through Streamlit. Integrated MLflow experiment tracking, a prediction-monitoring endpoint, Pytest, Docker Compose, and GitHub Actions CI. Evaluated using a synthetic dataset, with real-world model performance still to be validated.
-
-## Author
-
-**Bena Ruth M.**
-
-AI Engineer | AI Solutions and Automation
-
-- GitHub: https://github.com/Benaruth22
+**Author:** Bena Ruth M.  
+**GitHub:** [Benaruth22](https://github.com/Benaruth22)
